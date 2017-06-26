@@ -23,7 +23,19 @@ intergration_rules = [
 ]
 list += intergration_rules
 list += ['/home/jezri/wits_calculus/area.tex',
-'/home/jezri/wits_calculus/mean_value_theorem_for_defininte_intergrals.tex']
+'/home/jezri/wits_calculus/mean_value_theorem_for_defininte_intergrals.tex',
+'/home/jezri/wits_calculus/antiderivites_intergral.tex' ,
+'/home/jezri/wits_calculus/intergral_of_odd_function.tex',
+'/home/jezri/wits_calculus/intergral_of_even_function.tex',
+'/home/jezri/wits_calculus/area_between_curves.tex'
+
+]
+volumn = [
+'/home/jezri/wits_calculus/volume/volumn.tex',
+'/home/jezri/wits_calculus/volume/volumn_by_disk.tex',
+'/home/jezri/wits_calculus/volume/volumn_by_shell.tex'
+]
+list += volumn
 name = 'calculus'
 makebook(list,name)
 

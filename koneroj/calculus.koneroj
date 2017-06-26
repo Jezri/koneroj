@@ -57,4 +57,25 @@
  
  \input{/home/jezri/wits_calculus/mean_value_theorem_for_defininte_intergrals.tex} 
  \writeall 
+ 
+ \input{/home/jezri/wits_calculus/antiderivites_intergral.tex} 
+ \writeall 
+ 
+ \input{/home/jezri/wits_calculus/intergral_of_odd_function.tex} 
+ \writeall 
+ 
+ \input{/home/jezri/wits_calculus/intergral_of_even_function.tex} 
+ \writeall 
+ 
+ \input{/home/jezri/wits_calculus/area_between_curves.tex} 
+ \writeall 
+ 
+ \input{/home/jezri/wits_calculus/volume/volumn.tex} 
+ \writeall 
+ 
+ \input{/home/jezri/wits_calculus/volume/volumn_by_disk.tex} 
+ \writeall 
+ 
+ \input{/home/jezri/wits_calculus/volume/volumn_by_shell.tex} 
+ \writeall 
 \end{document}
