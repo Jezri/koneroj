@@ -1,0 +1,5 @@
+techniques = {
+'technique':'technique.kon'
+
+
+}

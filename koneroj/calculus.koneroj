@@ -1,0 +1,60 @@
+\documentclass{article} 
+ 	 \usepackage{standalone} 
+ 	 \usepackage{koneroj} 
+ 	\begin{document} 
+ \input{/home/jezri/wits_calculus/partition.tex} 
+ \writeall 
+ 
+ \input{/home/jezri/wits_calculus/partition_subinterval.tex} 
+ \writeall 
+ 
+ \input{/home/jezri/wits_calculus/norm_of_a_partition.tex} 
+ \writeall 
+ 
+ \input{/home/jezri/wits_calculus/riemann_sum.tex} 
+ \writeall 
+ 
+ \input{/home/jezri/wits_calculus/definite_integral.tex} 
+ \writeall 
+ 
+ \input{/home/jezri/wits_calculus/continues_functions_are_intergratable.tex} 
+ \writeall 
+ 
+ \input{/home/jezri/wits_calculus/piecewise_continuous_function.tex} 
+ \writeall 
+ 
+ \input{/home/jezri/wits_calculus/piecewise_continuous_functions_are_intergratable.tex} 
+ \writeall 
+ 
+ \input{/home/jezri/wits_calculus/nonintergratable_function.tex} 
+ \writeall 
+ 
+ \input{/home/jezri/wits_calculus/intergral_rules/order_of_intergration.tex} 
+ \writeall 
+\begin{description}
+\item[Intergal]Could not find a file\end{description} 
+ \input{/home/jezri/wits_calculus/intergral_rules/zero_width_interval.tex} 
+ \writeall 
+\begin{description}
+\item[Intergal]Could not find a file\end{description} 
+ \input{/home/jezri/wits_calculus/intergral_rules/intergration_constant.tex} 
+ \writeall 
+ 
+ \input{/home/jezri/wits_calculus/intergral_rules/intergration_sum_and_difference.tex} 
+ \writeall 
+ 
+ \input{/home/jezri/wits_calculus/intergral_rules/additivity.tex} 
+ \writeall 
+ 
+ \input{/home/jezri/wits_calculus/intergral_rules/max_min_inequality.tex} 
+ \writeall 
+ 
+ \input{/home/jezri/wits_calculus/intergral_rules/domination.tex} 
+ \writeall 
+ 
+ \input{/home/jezri/wits_calculus/area.tex} 
+ \writeall 
+ 
+ \input{/home/jezri/wits_calculus/mean_value_theorem_for_defininte_intergrals.tex} 
+ \writeall 
+\end{document}
