@@ -1,0 +1,60 @@
+from get_theorems import*
+from find_dependencies import* 
+
+def write_theorems(new_file, main_file):
+    dependencies = find_dependencies(main_file)
+    theorem_files = get_theorems(dependencies) 
+    for theorem_file in theorem_files:
+       write_result(theorem_file ,new_file)
+
+def write_result(theorem_file ,new_file):
+    start = find_result_start(theorem_file)
+    end = find_result_end(theorem_file)
+    source = open(theorem_file,'r')
+    line_num = 0;
+    for line in source:
+        line_num +=1
+        if( line_num > start and line_num < end):
+            print line
+    print source.read(2)
+    new_code = open(new_file,'a')
+    source = open(theorem_file,'r')
+    new_code.write(source.read())
+    source.close()
+    new_code.close()
+
+def find_result_start(theorem_file ):
+    start = 0
+    temp_start = 0
+    print 'find_result'
+    source = open(theorem_file,'r')
+    for line in source:
+        temp_start +=1 
+        temp = line.find(r'\begin{result}')
+        if temp != -1:
+             start = temp_start
+    source.close()
+    return start
+
+def find_result_end(theorem_file ):
+    start = 0
+    temp_start = 0
+    print 'find_result'
+    source = open(theorem_file,'r')
+    for line in source:
+        temp_start +=1 
+        temp = line.find(r'\end{result}')
+        if temp != -1:
+             start = temp_start
+    source.close()
+    return start
+
+
+'''   for line in source:
+        temp = line.find('\dependency')
+        if temp != -1:
+            begin = line.find('{',temp)+1
+            end = line.find('}',temp)
+            dependency = line[begin:end]
+            dependencies += [dependency]
+    source.close()'''
