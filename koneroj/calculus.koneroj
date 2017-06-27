@@ -1,7 +1,7 @@
 \documentclass{article} 
  	 \usepackage{standalone} 
  	 \usepackage{koneroj} 
- 	\begin{document} 
+ 	 \emptyall\begin{document} 
  \input{/home/jezri/wits_calculus/partition.tex} 
  \writeall 
  

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.3.25)  26 JUN 2017 18:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.3.25)  27 JUN 2017 07:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -336,10 +336,10 @@ e
 (/home/jezri/wits_calculus/volume/volumn_by_shell.tex) [5] [6] (./calculus.aux)
  ) 
 Here is how much of TeX's memory you used:
- 3992 strings out of 495020
- 62233 string characters out of 6181324
- 123658 words of memory out of 5000000
- 7050 multiletter control sequences out of 15000+600000
+ 3993 strings out of 495020
+ 62241 string characters out of 6181324
+ 123689 words of memory out of 5000000
+ 7051 multiletter control sequences out of 15000+600000
  5360 words of font info for 20 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  67i,11n,49p,330b,259s stack positions out of 5000i,500n,10000p,200000b,80000s
