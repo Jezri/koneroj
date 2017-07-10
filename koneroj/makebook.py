@@ -27,7 +27,7 @@ def write_section_preamble(new_file):
 
 def write_book_preamble(new_file):
     new_code = open(new_file,'w')
-    new_code.write('\documentclass{article} \n \t \usepackage{standalone} \n \t \usepackage{koneroj} \n \t \emptyall'''+ r'\begin{document}')
+    new_code.write('\documentclass{article} \n \t \usepackage{standalone} \n \t \usepackage{koneroj} \n \t \defineall'+ r'\begin{document}')
     new_code.close(  ) 
 
 
