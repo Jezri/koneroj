@@ -16,7 +16,7 @@ def write_preamble(new_file,main_file):
 
 def write_source(new_file, main_file):
     new_code = open(new_file,'a')
-    new_code.write(' \n \input{' + main_file+'} \n \writeall \n')
+    new_code.write('\emptyall \n \input{' + main_file+'} \n \writeall \n')
     new_code.close()
    
 def end_document(new_file):

@@ -1,0 +1,56 @@
+%This should be moved to ~/texmf/tex/latex on unix like operating systems
+\ProvidesPackage{koneroj}
+\usepackage{mathtools}
+\usepackage{fancyhdr}
+\usepackage{ifthen}
+\everymath{\displaystyle}
+\pagestyle{fancy}
+\newcommand{\writeall}{
+		\ifthenelse{\equal {\name} {} }{
+
+		}{
+			\section*{ \name }
+		}
+		\ifthenelse{\equal{\result}{}}{
+
+		}{
+		\paragraph{Result}	
+		\begin{paragraph}
+			\noindent
+			\result
+			\end{paragraph}
+		}
+		\ifthenelse{\equal{\proof}{}}{
+
+		}{
+			\paragraph{Proof}
+			\begin{paragraph}
+			\noindent
+			\proof
+			\end{paragraph} 
+		}
+		\ifthenelse{\equal{\definition}{}}{
+
+		}{
+			\paragraph{Definition}
+			\begin{paragraph}
+			\noindent
+			\definition
+			\end{paragraph}
+		}
+}	
+\newcommand{\defineall}{
+		\newcommand{\name}{}
+		\newcommand{\result}{}
+		\newcommand{\proof}{}
+		\newcommand{\definition}{}
+}
+\newcommand{\emptyall}{ 
+		\renewcommand{\name}{}
+		\renewcommand{\result}{}
+		\renewcommand{\proof}{}
+		\renewcommand{\definition}{}
+}
+\newcommand {\dependency}[2]{
+\overbrace{#2}^{\text{#1}}
+}

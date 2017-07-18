@@ -33,7 +33,7 @@ def write_result (theorem_name,theorem_file ,new_file):
     if theorem_file != 'None':
         new_code.write('\input{' + theorem_file + '} \n \b '+r'\result')
     else:
-        new_code.write("Could not find a file")
+        new_code.write('Could not find a file')
     new_code.close()
 
 
