@@ -6,6 +6,7 @@ def get_theorems(dependencies):
     for dependency in dependencies:
         found = False
         for theorem in theorems:
+            print theorem  + '\t' + dependency
             if dependency == theorem:
                  theorem_files[dependency] =  theorems[dependency]
                  found = True

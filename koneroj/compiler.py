@@ -11,7 +11,7 @@ def get_code_name(main_file):
 
 def write_preamble(new_file,main_file):
     new_code = open(new_file,'w')
-    new_code.write('\documentclass{article} \n \t \usepackage{standalone} \n \t \usepackage{koneroj} \n \t'''+ r'\begin{document}')
+    new_code.write('\documentclass{article} \n \t\usepackage{koneroj} \n \t'''+ r'\begin{document}')
     new_code.close() 
 
 def write_source(new_file, main_file):

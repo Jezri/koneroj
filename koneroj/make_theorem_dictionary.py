@@ -23,12 +23,15 @@ def add_file(root,name,sink):
     if(name.find('.koneroj')!=0):
         theorems = open(sink,'a')
         file_name = os.path.join(root,name)
+        print file_name
         theorem_name = get_theorem_name(file_name)
-        theorems.write(r"theorems['"+theorem_name+"'] =" + "'"+file_name +"'"+'\n')
+        print theorem_name
+        theorems.write(r"theorems['"+ theorem_name + "'] =" + "'"+file_name +"'"+'\n')
         theorems.close() 
 
-def add_folder(folder ):
-    for root, dirs, files in os.walk(folder):
+def add_folder(folder, sink ):
+   for root, dirs, files in os.walk(folder):
+        print root
         if files != []:
             for name in files:
                 add_file(root,name, sink)
@@ -36,12 +39,12 @@ def add_folder(folder ):
 
 def main():
     sink = 'theorems.py'
-    folders = ['/home/jezri/modules']
+    folders = ['home/jezri/Documents/koneroj_notes']
     theorems = open(sink,'w')
     theorems.write(r'theorems = {} '+'\n')
     theorems.close()
     for folder in folders:
-        add_folder(folder)
+        add_folder(folder, sink)
 main()
 
 
