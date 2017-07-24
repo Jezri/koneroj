@@ -2,7 +2,8 @@ import os
 folders = ['/home/jezri/Documents/koneroj_notes']
 theorems = {
 'theorem' : 'dotkon/theorem.kon',
-'Definite intergral' : '~/jezri/Documents/koneroj_notes/wits_calculus/definite_integral.tex'
+'Definite intergral' : 'definite_integral.tex',
+'Union': 'union.latex'
 }
 """for folder in folders:
     files = os.walk(folder)

@@ -32,7 +32,7 @@ def write_result (theorem_name,theorem_file ,new_file):
     new_code = open(new_file,'a')
     new_code.write(r'\item['+ theorem_name +']')
     if theorem_file != 'None':
-        new_code.write('\input{' + theorem_file + '} \n \b '+r'\result')
+        new_code.write('\emptyall' +'\n\t'+r'\input{' + theorem_file + '} \n \b '+r'\result' + '\n\t' + r'\definition')
     else:
         new_code.write('Could not find a file')
     new_code.close()
