@@ -1,0 +1,228 @@
+
+\documentclass{tufte-handout}
+\usepackage{titling}
+\usepackage[parfill]{parskip}
+\usepackage{verbatim}
+\usepackage{mystyle}
+\usepackage{natbib}
+\usepackage{amsmath}
+\usepackage{longtable}
+\everymath{\displaystyle}
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\begin{document}
+test\hypertarget{introductory-analysis}{%
+\section{Introductory Analysis}\label{introductory-analysis}}
+
+\begin{verbatim}
+Tut test next week!
+Sakia question must be handed in at tuts.
+\end{verbatim}\hypertarget{axioms-of-the-reals}{%
+\subsection{Axioms of the reals}\label{axioms-of-the-reals}}
+
+The real numbers are a field which also has ordered and diedekin
+complete
+
+\begin{description}
+\tightlist
+\item[Field]
+A set \(F\) of with two opperators \(+\) and \(\cdot\) such that
+\(\forall f_1, f_2, f_3 \in F\)
+\end{description}
+
+\begin{itemize}
+\tightlist
+\item
+  Addition
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{(A1)} \((f_1+f_2)+f_3 = f_1 + (f_2 + f_3)\) Addition is
+    associative
+  \item
+    \textbf{(A2)} \(f_1+f_2 = f_1+f_2\) Addition is comutitive
+  \item
+    \textbf{(A3)} \(\exists 0 | f_1 + 0 = f_1\) Indentity of addition
+  \item
+    \textbf{(A3)} \(\exists -f_1 | f_1 + (-f_1) = 0\)
+  \end{itemize}
+\item
+  Multiplication
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{(M1)} \((f_1 f_2) f_3 = f_1 (f_2 f_3)\) Multiplication is
+    associative
+  \item
+    \textbf{(M2)} \(f_1 f_2 = f_1 f_2\) Multiplication is comutitive
+  \item
+    \textbf{(M3)} \(\exists 1 \neq 0 | f_1 \dot 1 = f_1\) Indentity of
+    addition
+  \item
+    \textbf{(M4)}
+    \((\forall f_1 \in F | f_1 \neq 0) \exists f_1^{-1} | f_1 ( f_1^{-1}) = 1\)
+  \end{itemize}
+\item
+  Distrabution
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{(D1)} \(f_1(f_2+f_3)=f_1f_2 + f_1f_2\) multiplication is
+    distributive over addition
+  \end{itemize}
+\end{itemize}
+
+\textsc{Axioms of comparison}
+
+\begin{itemize}
+\item
+  The trichotomy property of reals. \textbf{(O1)}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \(\left( \forall r \in \mathbb{R} \right)\) exactly one is true
+  \item
+    \(a > 0 \quad a = 0 \quad a < 0\)
+  \end{itemize}
+\item
+  \(a > 0 \wedge b > 0 \quad \to \quad a + b >0\) \textbf{(O2)}
+\item
+  \(a > 0 \wedge b > 0 \to ab >0\) \textbf{(O3)}
+\end{itemize}
+
+\textsc{Dieekin completeness axiom} All bounded sets have superium and
+infamium \textbf{(C)}\textsc{Definitions}
+
+\begin{quote}
+\begin{itemize}
+\tightlist
+\item
+  Let \(r_1 r_2 \in \mathbb{r}\) then \(r_1\) is called larger than
+  \(r_2\) written \(r_1 \> r_2\) if \(a - b \> 0\)
+\item
+  \(r_1 \geq b \Leftrightarrow a \> b \wedge a = b\)
+\item
+  \(a \leq b \Leftrightarrow a = b \wedge a \< b\)
+\end{itemize}
+\end{quote}
+
+\textsc{Some proofs}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  \(a < b \wedge b < c \to a < c\quad\) transitivty\footnote{sort of}
+\end{enumerate}
+
+Proof
+
+\begin{quote}
+\(b > a \Leftrightarrow b-a \geq 0\) \textbf{(i)}
+
+\(b -c \geq 0\) \textbf{(ii)}
+
+combining i and ii with previous theorem \((b-a) + c - b \geq 0\)
+\(a - c \geq 0\) (addition axioms) \(c \geq 0\)
+\end{quote}
+
+\textsc{Proof} by contradiction
+\(a > 0 \Leftrightarrow a^{-1} > 0 \wedge a < 0 \Leftrightarrow a^{-1} < 0\)
+
+\begin{quote}
+\textbf{Case} \(a > 0\)
+
+\begin{quote}
+\textbf{(i)} \(a \neq 0\) \textbf{Trichotomy}\\
+\textbf{(ii)} \(\exists a^{-1}\) \textbf{(M3)} \(\wedge\) \textbf{(i)}
+
+\textbf{Case} \(a^{-1} < 0\)
+
+\begin{quote}
+\begin{enumerate}
+\tightlist
+\item
+  \(-a^{-1} > 0\) \textbf{(a)}
+\item
+  \(-a^{-1} \cdot a > 0\) \textbf{(O3)}
+\item
+  \(-1 > 0\) \textbf{Contradiction}
+\end{enumerate}
+\end{quote}
+
+\textbf{Case} \(a^{-1} = 0\) \textgreater{} \#. \(1 = a \cdot a^{-1}\)
+\textbf{(M3)} \textgreater{} \#. \(= 0\) \textbf{(Multiplication by
+zero)} \textbf{Contradiction}
+
+\textbf{Conculsion} \(a > 0 \Leftrightarrow a^-1 >0\)
+\end{quote}
+
+\textbf{Case} \(a < 0\)
+
+\begin{quote}
+\textbf{(i)} \(a \neq 0\) \textbf{Trichotomy}\\
+\textbf{(ii)} \(\exists a^{-1}\) \textbf{(M3)} \(\wedge\) \textbf{(i)}
+
+\textbf{Case} \(a^{-1} = 0\) \textgreater{} \#.
+\(1 = a \cdot a^{-1} = 0\) \textbf{Contradiciton}
+\textbf{(Multiplication by zero)} \textbf{(M3)}
+
+\textbf{Case} \(a^{-1} > 0\) \textgreater{} \#. \(-1 = -a a^{-1} > 0\)
+\end{quote}
+\end{quote}
+
+k \(1 \> 0\) \textgreater{} \(a \neq 0 \to a^2 > 0\) \textgreater{}
+\(use this to show 1 > 0\)
+
+\hypertarget{absolute-value}{%
+\section{Absolute value}\label{absolute-value}}
+
+\begin{quote}
+definition \(|r| = -x \forall x < 0\) \$ = x \quad x \textgreater{} 0\$
+\$\infty \nin \mathbb{R} \$ a + b \leq \textbar{} a +b \$
+\end{quote}
+
+\textsc{Properties} \(|a| = 0 \Leftrightarrow if a = 0\) * if
+\(|a| = 0 \to a = 0\) contrapositive * if \(a = 0 \to |a| = 0\)
+deffinition
+
+b \textbar{}-a \textbar{} = \textbar{}-a\textbar{}\footnote{Still need
+  to proove} use each three cases of dichotomy
+
+try d and e tutorial questions
+
+\#Trainagle inequality \(||a|+|b|| \geq |a| + |b|\)
+
+\begin{itemize}
+\tightlist
+\item
+  \(|a + b| \leq |a| + |b| tut\)
+\item
+  \(| |a| - |b| \leq |a + b|\)
+\end{itemize}
+
+proof This is wronThis is wrongg \textgreater{} \textgreater{}
+\(a = a - b + b \to |a| = |a - b + b| = |a-b| + |b|\) \textgreater{}
+\textgreater{} \(b = b - a + a \to |b| = |b - a + a| = |b-a| + |a|\) by
+c \(|b| \leq |a - b| + |a| \to |b| \leq |b - a|\) combining multiply **
+\(-1\) ** \(|a - b| \leq |a| - |b| - |a - b| \leq |a| - |b| \leq a-b\)
+\textbar{} by \(d\) \(\Leftrightarrow\) triangle inequility to proove
+with minus just sub in \(-b\)Glossary
+
+\begin{description}
+\tightlist
+\item[Bound]
+The bound of a set is a number such that all numbers in the set are less
+than or greater than the set. A bound is not unique.
+\item[Supremum]
+The supereme or infamium of a set the least upper bound or the greatest
+lower bound and is unique
+\item[Maximum and miniumium]
+If the superium or infaium are elements of the set than they are the max
+and miuminium otherwise there is no maxium or mimiumum
+\end{description}\end{document}
