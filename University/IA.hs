@@ -177,7 +177,7 @@ positiveRoots = [r|
   + $r^{\frac{1}{2}}$ is unique**(lemma 4)**
 
 > 
->   **lemma 1**  $S \neq \empty$ 
+>   **lemma 1**  $S \neq \emptyset$ 
 >
 >    * **Case** $a < 1$
 >      + $0 < a , a^2 < a \Rightarrow a \in S$  

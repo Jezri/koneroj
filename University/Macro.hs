@@ -8,10 +8,11 @@ import System.IO
 import Raw
 import Preamble
 import Koneroj
+import Notation (macroEconomics)
 
 main :: IO () 
 main = do 
-  let a = mdToLaTeXFold[macro, islm ,financialMarket]
+  let a = mdToLaTeXFold[macro, islm ,financialMarket, bonds, macroEconomics]
   latexToFile "Macro.tex" a
 
 
@@ -75,11 +76,15 @@ The ISLM model models the equilibrium for income and interest rates, the quintit
 
 This is represented by the intersenctoin of the IS curve which shows the resultant intrest rates for all equilibriums between money demand which is a function of income and money supply, and the LM curve which represents all the points of equilibrium (where consumption is equil to output and no inventories are built up or depleted) and consuption (which contains investment which is a function of interest rates) 
 
-## First modle
+## First model
 
 > ** Assumption **
 > The economy is closed and there is no public sector(taxation or gorverment spending)
 
+![LM](pics/LM.jpg){width=100%, height=100%}
+
+## The IS curve give all points of equilibrium in the financial market
+![IS](pics/IS.jpg){width=100%, height=100%}
 
 |]
 
@@ -98,4 +103,27 @@ The supply of money is modeled as a constant $M$ and supplied by the centerall b
 
 ## Monatary policy and open market operations 58 
 
+|]
+
+bonds :: Text
+bonds = [r| 
+
+# Bonds
+
+Bonds have 
+
+* $P$ a face value that they are sold and rebought by the issuer
+* $i$ an interest rate paid repesenting the charge per unit currency borrowed paid by the bonds issueur to the bonds owner.
+
+In the market for bonds 
+
+* $i_e$ is the equilibrium interest rate for bonds of a ccertain risk.
+
+No bonds will be bought by from sellers selling assets yeilding bellow this interest rate.
+
+This means that the asset must be sold at a maket price $P_m$ such that the interest it yeilds $Pi$ is the equilibrium rate of interest $i_e$
+
+$\frac{Pi}{P_m} = i_e$
+
+This give a counterintuitive result that the market prce and the market interest rates are  inversly related. If the interest rate on a bond has increased this would seem to make it more disarable and so increase its prices, but this is not what has happened. Other bonds of similar risk are being sold on the market at higher interest rates, (Or lower costs and set interet) while the bond retains the same interst.
 |]

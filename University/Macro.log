@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.2.9)  1 MAR 2018 16:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.2.9)  5 MAR 2018 08:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1147,6 +1147,40 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 112--114
+[]\T1/pplj/m/n/10 ** As-sump-tion ** The econ-omy is closed and there is no pub
+-lic sec-
+ []
+
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 114--115
+[][][][][][]  
+ []
+
+<pics/LM.jpg, id=56, 540.5796pt x 429.2838pt>
+File: pics/LM.jpg Graphic file (type jpg)
+<use pics/LM.jpg>
+Package pdftex.def Info: pics/LM.jpg  used on input line 118. on input line 118
+.
+Package pdftex.def Info: Requested size: 143.99527pt x 143.996pt on input line 
+118.
+<pics/IS.jpg, id=57, 553.5882pt x 417.7206pt>
+File: pics/IS.jpg Graphic file (type jpg)
+<use pics/IS.jpg>
+Package pdftex.def Info: pics/IS.jpg  used on input line 128. on input line 128
+.
+Package pdftex.def Info: Requested size: 143.9971pt x 143.99902pt on input line
+ 128.
+
+LaTeX Warning: Marginpar on page 2 moved.
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.4pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2 <./pics/LM.jpg> <./pics/IS.jpg>]
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
@@ -1158,44 +1192,34 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
+[3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 214.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 214.
  (./Macro.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
-
-
-Package rerunfilecheck Warning: File `Macro.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Macro.out':
-(rerunfilecheck)             Before: D9B55F70D5C8871866ABF8192A1A331E;376
-(rerunfilecheck)             After:  81237F53C67403CDEAFD7550E865AA42;473.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 123.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 214.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 214.
+Package rerunfilecheck Info: File `Macro.out' has not changed.
+(rerunfilecheck)             Checksum: 8902CC403EA731156F475A8B1B878DCD;695.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 214.
  ) 
 Here is how much of TeX's memory you used:
- 22812 strings out of 492985
- 392780 string characters out of 6138639
- 467434 words of memory out of 5000000
- 25873 multiletter control sequences out of 15000+600000
- 31166 words of font info for 56 fonts, out of 8000000 for 9000
+ 22843 strings out of 492985
+ 393223 string characters out of 6138639
+ 467682 words of memory out of 5000000
+ 25888 multiletter control sequences out of 15000+600000
+ 34654 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,12n,58p,472b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,12n,58p,472b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public
 /fpl/fplrc8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></u
 sr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/
 fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/pala
 tino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Macro.pdf (2 pages, 62233 bytes).
+Output written on Macro.pdf (3 pages, 208485 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
- 27 named destinations out of 1000 (max. 500000)
- 37 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 112 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
+ 36 named destinations out of 1000 (max. 500000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

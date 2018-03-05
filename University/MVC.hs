@@ -13,7 +13,7 @@ import Koneroj
 
 main :: IO () 
 main = do 
-  let a = mdToLaTeXFold[mvc, differentials, productRules, twoDTan, tSeries, fullNotation]
+  let a = mdToLaTeXFold[mvc, differentials, productRules, derivativeProperties,twoDTan, tSeries, fullNotation, todo]
   latexToFile "MVC.tex" a
 
 mvc :: Text
@@ -130,6 +130,22 @@ $\vec{F}, \vec{G} : \mathbb{R} \to \mathbb{R}^3$
 The proofs are all simple evalution of the indivdiual components of each part.
 |]
 
+derivativeProperties :: Text
+derivativeProperties = [r|
+
+# Properties of the derivatives
+
+* $ \nabla$ is linear ie distrabutive over addition and commutitive with multiplication
+* $\nabla (fg) = g \nabla f + f \nabla g$ **Chain Rule**
+* $ \nabla \cdot$ is linear over Rn to Rm functions
+* $ \nabla \cdot (gF) = (\nabla g) \cdot F + g \nabla F$ 
+* Same is true for cross product for R3 to R3 
+* \nabla \cdot (\mathbf{F} \time \mathbf{G} = (\nabla \times \mathbf{F})\cdot \mathbf{G}-(\nabla \times \mathbf{G}\cdot F))
+* Partial derivatives are comutitive
+* for $f:: \mathbf{R^3} \to mathbb[R]$ and {F :: \mathbb{R}^3 \to \mathbb{R}^3}
+  + $\nabla \time \nabla f \equiv 0$
+  + $\nabla \cdot (\nabla \time F) =0$
+|]
 twoDTan :: Text
 twoDTan = [r|
 # Tangents
@@ -154,4 +170,16 @@ Taylor  series:
   $\vec{f}(\vec{x}+\vec{h})= f(x)$
 Try find another explaination or consult
 |] 
+
+todo :: Text
+todo = [r| 
+
+# Chain rule
+
+# Directional deravitives
+
+# Normals
+
+# Maxima and minima
+|]
 

@@ -2,7 +2,8 @@
 module Notation (fullNotation,
                   absoluteValue,
                   deffinition,
-                  introductoryAnalysisNotation
+                  introductoryAnalysisNotation,
+                  macroEconomics
                 )
   where
 
@@ -10,6 +11,7 @@ import NeatInterpolation (text)
 import Data.Text (Text, unpack, pack)
 import Raw
 import Koneroj (mdFold, inGlossary, inSidenote)
+
 
 absoluteValue :: (Text, Text)
 absoluteValue = (title, txt)
@@ -55,6 +57,62 @@ $\nabla ^2 f = \nabla \cdot \nabla f = \sum_{j=1}^n \frac{\partial ^2 f}{\partia
 
 **Curl for $\vec{F} : \mathbb{R}^3 \to \mathbb{R}^3**
 $\text{curl} \vec{X} = \nabla \times \vec{F}$ 
+|]
+
+macroEconomics :: Text
+macroEconomics = [r|
+
+# Macro Economic Terms
+
+GDP 
+: A monatary measure of the total market value of final goods and services produced in a country in a given period of time.
+
+**VAT is included in GDP as a cost of production?**
+    This can be calculated in three ways
+    
+    * Income to all factors of production for produceing the goods and services
+        + Compensation for employees
+        + Rent
+        + Interest
+        + Proprietors income (unincorporated busnessess)
+        + Corporate Profits
+          - Corporate income taxes ? why not add taxes in general rather than just not deduct them?
+          - dividends
+          - retained profits
+    * Output (Value added) measured as value added at all levels of production
+    * Expenditure on final goods and services produced within a country ^[eports - imports]
+      Also includes investment in new capitial equipment and real estate a minus depreciation^[Where is depreciation accounted fro in the other two apporchers?]
+
+         This is the same as the expenditure or damand function function
+
+          +  $E = C + I + G +(X - M)$
+
+> GDP Excludes
+> 
+> * Public transfer payments
+> * Private Trasnfer payments
+> * Sales of stocks and bonds
+> * Second hand sales
+
+NI 
+: All income earned by domestic-supplied resouces. (Those owned by citizens?)
+  
+  Calculating NI from GDP
+
+  * Subtract Vat from GDP 
+  * 
+
+GNP 
+: The total value of goods and services produced by a countries citizens within a given period of time.
+
+Real GDP
+: Inflation adjusted GDP
+
+Nominal GDP
+: GDP measured in the market prices of the current year.
+
+NDP
+: Includes factor depreciation
 |]
 
 deffinition :: (Text, Text)

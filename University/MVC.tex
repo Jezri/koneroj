@@ -1,6 +1,12 @@
 
-\documentclass{tufte-handout}
+\documentclass{tufte-book}
 \usepackage{titling}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\thesection}
+\lhead{}
+\rfoot{\color{titlecolor}{ Page \thepage}}
 \usepackage[parfill]{parskip}
 \usepackage{verbatim}
 \usepackage{mystyle}
@@ -11,218 +17,215 @@
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \begin{document}
-test\hypertarget{introductory-analysis}{%
-\section{Introductory Analysis}\label{introductory-analysis}}
+\hypertarget{multi-veriable-culculus}{%
+\section{Multi Veriable Culculus}\label{multi-veriable-culculus}}
 
-\begin{verbatim}
-Tut test next week!
-Sakia question must be handed in at tuts.
-\end{verbatim}\hypertarget{axioms-of-the-reals}{%
-\subsection{Axioms of the reals}\label{axioms-of-the-reals}}
+\hypertarget{vector-function}{%
+\subsection[Vector function]{\texorpdfstring{Vector function\footnote{Row
+  and column vectors are treated interchangably in the coarse}}{Vector function}}\label{vector-function}}
 
-The real numbers are a field which also has ordered and diedekin
-complete
+\(\vec{F} :: R^n \rightarrow R^m\)
 
-\begin{description}
-\tightlist
-\item[Field]
-A set \(F\) of with two opperators \(+\) and \(\cdot\) such that
-\(\forall f_1, f_2, f_3 \in F\)
-\end{description}
+\(\text{Domain} \quad \subseteq R^n\)
+
+\(\text{Range} \quad \subseteq R^m\)
+
+\hypertarget{continuity}{%
+\subsection[Continuity]{\texorpdfstring{Continuity\footnote{All
+  functions in the coarse are continues}}{Continuity}}\label{continuity}}
+
+\(\vec{F}\) is continues \(\forall \vec{a}\) if the limit exists and and
+is equal to the function for all a\$
+
+Limit:
+
+The limit of of a vector function \(\vec{F}(\vec{X})\) is defined as
+
+\(\lim_{ \vec{x} \to \vec{a} } \vec{F} (\vec{x} ) = \vec{l}\)
+
+if for each \(\epsilon > 0 \exists \delta > 0\)
+
+such that \(\quad 0< ||\vec{x}-\vec{a}|| < \delta\)
+
+\(\Leftrightarrow || \vec{F} (\vec{l})|| < \epsilon\)
+
+\hypertarget{scalar-triple-product}{%
+\subsection{Scalar triple product}\label{scalar-triple-product}}
+
+\(\vec{x} \cdot (\vec{y} \times \vec{z}) =  \begin{vmatrix}  x_1 & x_2 & x_3 \\  y_1 & y_2 & y_3 \\  z_1 & z_2 & z_3 \\  \end{vmatrix}\)
+
+\hypertarget{projection}{%
+\subsection{Projection}\label{projection}}
+
+\(\text{proj}_a b = \frac{a \cdot b}{|a|^2} a\quad\)
+
+\hypertarget{componenets}{%
+\subsection{Componenets}\label{componenets}}
+
+\(\frac{a \cdot b}{|a|}\)
+
+Do shwats and traingle inequilty
+
+Parametric form:
+
+An equation is in parametric form if it is of the type
+\(\vec{F} :: \mathbb{R} \to \mathbb{R}^n\)
+
+for a circle:
+\[f(t) =  \begin{pmatrix} r \cos (t) \\ r \sin (t) \end{pmatrix}\]
+
+Continuity:
+
+\(\vec{F} :: \mathbb{R} \to \mathbb{R}^n = \{f_i(t)\}_{i=1}^{n} \quad | \forall i \in [1 , n] \; f_i:: \mathbb{R} \to \mathbb{R}\)
+
+\(\vec{F}\) is continious \(\iff\) \(\forall i \in [1,n] \; f_i\) is
+continious\hypertarget{differentiates-of-vector-functions}{%
+\section[Differentiates of vector
+functions]{\texorpdfstring{Differentiates of vector functions\footnote{\textbf{Definition}
+  \(:=\) (is defined as)}}{Differentiates of vector functions}}\label{differentiates-of-vector-functions}}
+
+\hypertarget{differentiates-of-vecf-mathbbr-to-mathbbrn}{%
+\subsection{\texorpdfstring{Differentiates of
+\(\vec{F}: \mathbb{R} \to \mathbb{R}^n\)}{Differentiates of \textbackslash{}vec\{F\}: \textbackslash{}mathbb\{R\} \textbackslash{}to \textbackslash{}mathbb\{R\}\^{}n}}\label{differentiates-of-vecf-mathbbr-to-mathbbrn}}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+RHS & LHS\tabularnewline
+\midrule
+\endhead
+\(\vec{F}'\) &
+\(=\lim_{a \to 0}\left( \frac{1}{a} \left( \vec{F} (x + a ) -\vec{F} (x)\right) \right)\)\tabularnewline
+&
+\(=\lim_{a \to 0}\left(\frac{1}{a} \begin{pmatrix} f_1( x + a) -f_1(x) \\ \vdots \\ f_n(x + a) -f_n(x) \end{pmatrix} \right)\)\tabularnewline
+&
+\(=\lim_{a \to 0}\begin{pmatrix} \frac{f_1( x + a) -f_1(x)}{a} \\ \vdots \\ \frac{f_n(x + a) - f_n(x+a)}{a} \end{pmatrix}\)\tabularnewline
+&
+\(=\begin{pmatrix}\lim_{a\to0}\left(\frac{f_1(x+a)-f_1(x)}{x}\right) \\ \vdots \\ \lim_{a \to 0} \left( \frac{f_n(x+a) - f_n(x)}{x} \right) \end{pmatrix}\)\tabularnewline
+&
+\(=\begin{pmatrix} \frac{d f_1(x)}{dx} \\ \vdots \\ \frac{d f_n(x)}{dx} \end{pmatrix}\)\tabularnewline
+\bottomrule
+\end{longtable}
+
+\hypertarget{differenetiates-of-fmathbbrn-to-mathbbr}{%
+\subsection[Differenetiates of
+\(f:\mathbb{R}^n \to \mathbb{R}\)]{\texorpdfstring{Differenetiates
+\footnote{functions resulting a scaler are not written as vectors!}of
+\(f:\mathbb{R}^n \to \mathbb{R}\)}{Differenetiates of f:\textbackslash{}mathbb\{R\}\^{}n \textbackslash{}to \textbackslash{}mathbb\{R\}}}\label{differenetiates-of-fmathbbrn-to-mathbbr}}
+
+The differentiate of \(f\) where \(f: \mathbb{R} \to \mathbb{R}^n\) is
+called the gradient of \(f\) and is written \(\nabla f\)
+
+\(\nabla f := \begin{pmatrix} f_{a}, \cdots, f_{n} \end{pmatrix}\)
+
+\begin{quote}
+Where \(f_x\) is \(\frac{\partial f(a, \cdots n)}{\partial x}\) and
+\((a \cdots n)\) are the arguments of \(f\)
+\end{quote}
+
+\hypertarget{differentaites-of-vecf-mathbbrm-to-mathbbrn}{%
+\subsection{\texorpdfstring{Differentaites of
+\(\vec{F}: \mathbb{R}^m \to \mathbb{R}^n\)}{Differentaites of \textbackslash{}vec\{F\}: \textbackslash{}mathbb\{R\}\^{}m \textbackslash{}to \textbackslash{}mathbb\{R\}\^{}n}}\label{differentaites-of-vecf-mathbbrm-to-mathbbrn}}
+
+\(\vec{F}( x_1 \cdots x_n)= \begin{pmatrix} f_1(x_1, \cdots x_n) \\ \vdots \\ f_m(x_1 \cdots x_n)\end{pmatrix}\)
+
+\(\Rightarrow \vec{F}'( x_1 \cdots x_n) = \begin{pmatrix} \nabla f_1(x_1, \cdots x_n) \\ \vdots \\ \nabla f_m(x_1 \cdots x_n)\end{pmatrix}\)\hypertarget{product-rules}{%
+\section{Product rules}\label{product-rules}}
+
+\(\vec{F},\vec{G} : \mathbb{R}^n \to \mathbb{R}^m\) and
+\(f:\mathbb{R}^n \to \mathbb{R}\)
 
 \begin{itemize}
 \tightlist
 \item
-  Addition
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \textbf{(A1)} \((f_1+f_2)+f_3 = f_1 + (f_2 + f_3)\) Addition is
-    associative
-  \item
-    \textbf{(A2)} \(f_1+f_2 = f_1+f_2\) Addition is comutitive
-  \item
-    \textbf{(A3)} \(\exists 0 | f_1 + 0 = f_1\) Indentity of addition
-  \item
-    \textbf{(A3)} \(\exists -f_1 | f_1 + (-f_1) = 0\)
-  \end{itemize}
+  \textbf{(i)}
+  \((\vec{F} \cdot \vec{G}) '= \vec{F}^T \vec{G}' + \vec{G}^T \vec{F}'\)
 \item
-  Multiplication
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \textbf{(M1)} \((f_1 f_2) f_3 = f_1 (f_2 f_3)\) Multiplication is
-    associative
-  \item
-    \textbf{(M2)} \(f_1 f_2 = f_1 f_2\) Multiplication is comutitive
-  \item
-    \textbf{(M3)} \(\exists 1 \neq 0 | f_1 \dot 1 = f_1\) Indentity of
-    addition
-  \item
-    \textbf{(M4)}
-    \((\forall f_1 \in F | f_1 \neq 0) \exists f_1^{-1} | f_1 ( f_1^{-1}) = 1\)
-  \end{itemize}
+  \textbf{(ii)}
+  \(a (\vec{F} + b \vec{G}' = \vec{F})' + b\vec{G}' \forall a,b \in \mathbb{R}\)
 \item
-  Distrabution
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \textbf{(D1)} \(f_1(f_2+f_3)=f_1f_2 + f_1f_2\) multiplication is
-    distributive over addition
-  \end{itemize}
+  \textbf{(iii)} \((f\vec{F})' = f\vec{F}' + \vec{F}f'\)
 \end{itemize}
 
-\textsc{Axioms of comparison}
-
-\begin{itemize}
-\item
-  The trichotomy property of reals. \textbf{(O1)}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \(\left( \forall r \in \mathbb{R} \right)\) exactly one is true
-  \item
-    \(a > 0 \quad a = 0 \quad a < 0\)
-  \end{itemize}
-\item
-  \(a > 0 \wedge b > 0 \quad \to \quad a + b >0\) \textbf{(O2)}
-\item
-  \(a > 0 \wedge b > 0 \to ab >0\) \textbf{(O3)}
-\end{itemize}
-
-\textsc{Dieekin completeness axiom} All bounded sets have superium and
-infamium \textbf{(C)}\textsc{Definitions}
-
-\begin{quote}
-\begin{itemize}
-\tightlist
-\item
-  Let \(r_1 r_2 \in \mathbb{r}\) then \(r_1\) is called larger than
-  \(r_2\) written \(r_1 \> r_2\) if \(a - b \> 0\)
-\item
-  \(r_1 \geq b \Leftrightarrow a \> b \wedge a = b\)
-\item
-  \(a \leq b \Leftrightarrow a = b \wedge a \< b\)
-\end{itemize}
-\end{quote}
-
-\textsc{Some proofs}
-
-\begin{enumerate}
-\def\labelenumi{\alph{enumi})}
-\setcounter{enumi}{1}
-\tightlist
-\item
-  \(a < b \wedge b < c \to a < c\quad\) transitivty\footnote{sort of}
-\end{enumerate}
-
-Proof
-
-\begin{quote}
-\(b > a \Leftrightarrow b-a \geq 0\) \textbf{(i)}
-
-\(b -c \geq 0\) \textbf{(ii)}
-
-combining i and ii with previous theorem \((b-a) + c - b \geq 0\)
-\(a - c \geq 0\) (addition axioms) \(c \geq 0\)
-\end{quote}
-
-\textsc{Proof} by contradiction
-\(a > 0 \Leftrightarrow a^{-1} > 0 \wedge a < 0 \Leftrightarrow a^{-1} < 0\)
-
-\begin{quote}
-\textbf{Case} \(a > 0\)
-
-\begin{quote}
-\textbf{(i)} \(a \neq 0\) \textbf{Trichotomy}\\
-\textbf{(ii)} \(\exists a^{-1}\) \textbf{(M3)} \(\wedge\) \textbf{(i)}
-
-\textbf{Case} \(a^{-1} < 0\)
-
-\begin{quote}
-\begin{enumerate}
-\tightlist
-\item
-  \(-a^{-1} > 0\) \textbf{(a)}
-\item
-  \(-a^{-1} \cdot a > 0\) \textbf{(O3)}
-\item
-  \(-1 > 0\) \textbf{Contradiction}
-\end{enumerate}
-\end{quote}
-
-\textbf{Case} \(a^{-1} = 0\) \textgreater{} \#. \(1 = a \cdot a^{-1}\)
-\textbf{(M3)} \textgreater{} \#. \(= 0\) \textbf{(Multiplication by
-zero)} \textbf{Contradiction}
-
-\textbf{Conculsion} \(a > 0 \Leftrightarrow a^-1 >0\)
-\end{quote}
-
-\textbf{Case} \(a < 0\)
-
-\begin{quote}
-\textbf{(i)} \(a \neq 0\) \textbf{Trichotomy}\\
-\textbf{(ii)} \(\exists a^{-1}\) \textbf{(M3)} \(\wedge\) \textbf{(i)}
-
-\textbf{Case} \(a^{-1} = 0\) \textgreater{} \#.
-\(1 = a \cdot a^{-1} = 0\) \textbf{Contradiciton}
-\textbf{(Multiplication by zero)} \textbf{(M3)}
-
-\textbf{Case} \(a^{-1} > 0\) \textgreater{} \#. \(-1 = -a a^{-1} > 0\)
-\end{quote}
-\end{quote}
-
-k \(1 \> 0\) \textgreater{} \(a \neq 0 \to a^2 > 0\) \textgreater{}
-\(use this to show 1 > 0\)
-
-\hypertarget{absolute-value}{%
-\section{Absolute value}\label{absolute-value}}
-
-\begin{quote}
-definition \(|r| = -x \forall x < 0\) \$ = x \quad x \textgreater{} 0\$
-\$\infty \nin \mathbb{R} \$ a + b \leq \textbar{} a +b \$
-\end{quote}
-
-\textsc{Properties} \(|a| = 0 \Leftrightarrow if a = 0\) * if
-\(|a| = 0 \to a = 0\) contrapositive * if \(a = 0 \to |a| = 0\)
-deffinition
-
-b \textbar{}-a \textbar{} = \textbar{}-a\textbar{}\footnote{Still need
-  to proove} use each three cases of dichotomy
-
-try d and e tutorial questions
-
-\#Trainagle inequality \(||a|+|b|| \geq |a| + |b|\)
+\(\vec{F}, \vec{G} : \mathbb{R} \to \mathbb{R}^3\)
 
 \begin{itemize}
 \tightlist
 \item
-  \(|a + b| \leq |a| + |b| tut\)
-\item
-  \(| |a| - |b| \leq |a + b|\)
+  \textbf{(iv)} \((F \times G)' = F \times G' + F' \times G\)
 \end{itemize}
 
-proof This is wronThis is wrongg \textgreater{} \textgreater{}
-\(a = a - b + b \to |a| = |a - b + b| = |a-b| + |b|\) \textgreater{}
-\textgreater{} \(b = b - a + a \to |b| = |b - a + a| = |b-a| + |a|\) by
-c \(|b| \leq |a - b| + |a| \to |b| \leq |b - a|\) combining multiply **
-\(-1\) ** \(|a - b| \leq |a| - |b| - |a - b| \leq |a| - |b| \leq a-b\)
-\textbar{} by \(d\) \(\Leftrightarrow\) triangle inequility to proove
-with minus just sub in \(-b\)Glossary
+The proofs are all simple evalution of the indivdiual components of each
+part.\hypertarget{properties-of-the-derivatives}{%
+\section{Properties of the
+derivatives}\label{properties-of-the-derivatives}}
 
-\begin{description}
+\begin{itemize}
 \tightlist
-\item[Bound]
-The bound of a set is a number such that all numbers in the set are less
-than or greater than the set. A bound is not unique.
-\item[Supremum]
-The supereme or infamium of a set the least upper bound or the greatest
-lower bound and is unique
-\item[Maximum and miniumium]
-If the superium or infaium are elements of the set than they are the max
-and miuminium otherwise there is no maxium or mimiumum
-\end{description}\end{document}
+\item
+  \$ \nabla\$ is linear ie distrabutive over addition and commutitive
+  with multiplication
+\item
+  \(\nabla (fg) = g \nabla f + f \nabla g\) \textbf{Chain Rule}
+\item
+  \$ \nabla \cdot\$ is linear over Rn to Rm functions
+\item
+  \$ \nabla \cdot (gF) = (\nabla g) \cdot F + g \nabla F\$
+\item
+  Same is true for cross product for R3 to R3
+\item
+  \nabla \cdot (\mathbf{F} \time \mathbf{G} =
+  (\nabla \times \mathbf{F})\cdot \mathbf{G}-(\nabla \times \mathbf{G}\cdot F))
+\item
+  Partial derivatives are comutitive
+\item
+  for \(f:: \mathbf{R^3} \to mathbb[R]\) and \{F :: \mathbb{R}\^{}3
+  \to \mathbb{R}\^{}3\}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \(\nabla \time \nabla f \equiv 0\)
+  \item
+    \(\nabla \cdot (\nabla \time F) =0\)
+  \end{itemize}
+\end{itemize}\hypertarget{tangents}{%
+\section{Tangents}\label{tangents}}
+
+\textsc{To find} the tangent of a equation.
+
+\begin{itemize}
+\item
+  Take the vector equation of a parametric equation \(\vec{F}(t)\) at
+  \(t_0\)
+\item
+  The point of the line is given by \(\vec{F}(t_0)\)
+\item
+  The Direction is given by the derivative of the function times some
+  vector or perameter u\footnote{get better wording}
+  \(T(u) = \vec{F}(t_0) + d\vec{F}(t_0 ; u)\)
+  \(= \vec{F}(t) + \vec{F}' \cdot u\)
+\end{itemize}Taylor series:
+
+\(f(x) = \sum_{n=0}^\infty \frac{f^{(n)}(a)}{n!} (x -a)^n\)
+
+\(\vec{f}(\vec{x}+\vec{h})= f(x)\) Try find another explaination or
+consult\hypertarget{full-notation}{%
+\section{Full Notation}\label{full-notation}}
+
+\textbf{Definition}
+
+\(:=\) (is defined as)
+
+\(\nabla := \begin{pmatrix} \frac{\partial}{\partial x_1} \\ \vdots \\ \frac{\partial}{\partial x_n}\end{pmatrix}\)
+
+\(\nabla \vec{F} := \begin{bmatrix} \frac{\partial f}{\partial x_1} \\ \vdots \\ \frac{\partial f}{\partial x_n}\end{bmatrix}\)
+\textbf{This is only defined for \(\mathbb{R}^n \to \mathbb{R}\)}
+
+\(\text{div} \vec{F} := \nabla \cdot \vec{F}\) \textbf{This is definied}
+\((a)_4\)
+
+\textbf{Laplacian}
+\(\nabla ^2 f = \nabla \cdot \nabla f = \sum_{j=1}^n \frac{\partial ^2 f}{\partial x^2_j}\)
+
+\textbf{Curl for \$\vec{F} : \mathbb{R}\^{}3 \to \mathbb{R}\^{}3}
+\(\text{curl} \vec{X} = \nabla \times \vec{F}\)\end{document}
