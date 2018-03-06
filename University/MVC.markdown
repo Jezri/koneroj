@@ -1,4 +1,3 @@
-
 # Linearity
 
 A function f(x) is linear (in x) if f(ax +by ) = af(x) + bf(y) $\forall x,y \in a$ and $a,b$ scalars or real

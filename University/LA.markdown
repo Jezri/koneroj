@@ -1,7 +1,7 @@
 Basis 
 :
 
-  * Let v be a vector space over a fiel **F**
+  * et v be a vector space over a fiel **F**
   * A system of vectors is a basis of v if
     + it is linearly independent
     + the span of the vectors is v that is every vector a from v can be written as a linear combination of those vectors^[The coefficents called cordinates can be determined uniquely]
@@ -130,3 +130,42 @@ Non Standard Exersize not in exam
 suppose we are given a rectanglur matrix whos entries are integers and we are alloed to multiply any row or any colom by -1.
 Proove by using finitily many such operations we can reduce our matrix to a matrix such that whenever we take a row or a colum the sum of elements will be be nonnegative.
 Produce an algorithm to do this.
+
+# Subspaces and direct sums
+
+Let $v$ be a vector space over field f. 
+
+w is a subspace of v if
+
+* w is closed under vector addition.
+* w is closed under scaler multiplication
+* every subspace is a vector space
+
+## Examples
+Every vector space has at least 2 trivial subspace trvial subspaces and the whole space V
+
+* All other subspaces are called non trivial or proper
+* $\R^3$
+* Lines and planes through the origin
+* The space of polinomiels of degree not exceeding n is a subspac of all polinomies
+* The set $C[0,1] of all contious real valued functions definied on the unit interval is a subspace of all functions on the unit interval
+*$<S>$ is the smallest subspace containing S
+* A m \times n matrix over a field F and consider Ax=O
+  + the solutions of this equation form a subspace of F^n
+
+## Execizes
+
+* Proove that for any subspace Wi \in V i\in I the interection of subspaces is always a subsapce.
+  + let x and y be any vectors from that interesection
+  + each Wi is a subspace than for each I x+ y belongs to Wi
+  + Assuming that V is finaite dimensionsal proove that for all subspaces W \subset of V the dimension of W  \geq 0 and is less than or equal to the dimension of V. Furthur more the dimension of w is zero if and only if w is the zero vector
+
+* 0 \leq W \leq dimV
+* pick a basis of W and extend it to a bases of V
+
+
+# Direct Sum
+
+* Proove that $\forall W_i \subset V \exists W_1 + \cdots + W_n = x_1 + cdots x_n | x_i \in w_i \forall i
+* x,y = W1 + Wn with xi + xn , y= y1 + yn xi,yi \in wi
+* thn x+y = (xi + yi ) + \cdots \Leftrightarrow x + y \in W

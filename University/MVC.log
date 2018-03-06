@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.2.9)  4 MAR 2018 14:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.2.9)  5 MAR 2018 17:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1370,6 +1370,115 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 204.
 
+! Missing delimiter (. inserted).
+<to be read again> 
+                   _
+l.219 ...n \frac{\partial f}{\partial x_i} \right_
+                                                  {\vec{G}(t)} \frac{\partia...
+
+? 
+! Extra \right.
+<to be read again> 
+                   _
+l.219 ...n \frac{\partial f}{\partial x_i} \right_
+                                                  {\vec{G}(t)} \frac{\partia...
+
+? 
+! Missing delimiter (. inserted).
+<to be read again> 
+                   _
+l.219 ... \frac{\partial g_i}{\partial dt} \right_
+                                                  t\)
+? 
+! Extra \right.
+<to be read again> 
+                   _
+l.219 ... \frac{\partial g_i}{\partial dt} \right_
+                                                  t\)
+? 
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 221--222
+[][][][][][][]  
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.225 ... \mathbb{R}^l \to \mathbb{R}^m\) (F \circ
+                                                   G)â€˜x = (Fâ€™ (G(x)))
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.227 \end{quote}
+                 
+? 
+Missing character: There is no â in font pplr9t!
+Missing character: There is no € in font pplr9t!
+Missing character: There is no ˜ in font pplr9t!
+Missing character: There is no â in font pplr9t!
+Missing character: There is no € in font pplr9t!
+Missing character: There is no ™ in font pplr9t!
+Missing character: There is no â in font pplr9t!
+Missing character: There is no € in font pplr9t!
+Missing character: There is no ™ in font pplr9t!
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 227--228
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 236--237
+[][][][][][][]  
+ []
+
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 242--243
+[][][][][][][]  
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.248 ...s direction is \textbar{}\textbar{}\nabla
+                                                   f
+? 
+
+LaTeX Warning: Command \textbar invalid in math mode on input line 249.
+
+
+LaTeX Warning: Command \textbar invalid in math mode on input line 249.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.250 
+      
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--250
+[]\T1/pplj/m/n/10 The di-rec-tion of the max-i-u-mium rate of in-crease of f is
+ $\OMS/zplm/m/n/10 r\OML/zplm/m/it/10 f$ \T1/pplj/m/n/10 and the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--254
+[]\T1/pplj/m/n/10 The di-rec-tion of the mini-u-mium rate of in-crease of f is 
+$\OMS/zplm/m/n/10 ^^@r\OML/zplm/m/it/10 f$ \T1/pplj/m/n/10 and the
+ []
+
+
+Overfull \hbox (18.0pt too wide) in paragraph at lines 254--255
+[][][][][][][]  
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 14.4pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]
 
 ! Package amsmath Error: \vec allowed only in math mode.
 
@@ -1377,7 +1486,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.230 ...F} : \mathbb{R}\^{}3 \to \mathbb{R}\^{}3}
+l.275 ...F} : \mathbb{R}\^{}3 \to \mathbb{R}\^{}3}
                                                   
 ? 
 
@@ -1387,34 +1496,34 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.230 ...F} : \mathbb{R}\^{}3 \to \mathbb{R}\^{}3}
+l.275 ...F} : \mathbb{R}\^{}3 \to \mathbb{R}\^{}3}
                                                   
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.230 ...F} : \mathbb{R}\^{}3 \to \mathbb{R}\^{}3}
+l.275 ...F} : \mathbb{R}\^{}3 \to \mathbb{R}\^{}3}
                                                   
 ? 
 
-LaTeX Warning: Command \^ invalid in math mode on input line 230.
+LaTeX Warning: Command \^ invalid in math mode on input line 275.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.230 ...F} : \mathbb{R}\^{}3 \to \mathbb{R}\^{}3}
+l.275 ...F} : \mathbb{R}\^{}3 \to \mathbb{R}\^{}3}
                                                   
 ? 
 ! Missing { inserted.
 <to be read again> 
                    \egroup 
-l.230 ...F} : \mathbb{R}\^{}3 \to \mathbb{R}\^{}3}
+l.275 ...F} : \mathbb{R}\^{}3 \to \mathbb{R}\^{}3}
                                                   
 ? 
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.230 ...F} : \mathbb{R}\^{}3 \to \mathbb{R}\^{}3}
+l.275 ...F} : \mathbb{R}\^{}3 \to \mathbb{R}\^{}3}
                                                   
 ? 
 
@@ -1424,13 +1533,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.231 \(
+l.276 \(
         \text{curl} \vec{X} = \nabla \times \vec{F}\)\end{document}
 ? 
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <7.6> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 231.
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 276.
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <6> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 231.
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 276.
 Missing character: There is no è in font zplmr7v!
 
 Package bibentry Warning: You have used \nobibliography* 
@@ -1443,12 +1552,12 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 231.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 231.
+[5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 276.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 276.
  (./MVC.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 231.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 231.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 276.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 276.
 
 
 Package rerunfilecheck Warning: File `MVC.out' has changed.
@@ -1456,22 +1565,22 @@ Package rerunfilecheck Warning: File `MVC.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `MVC.out':
-(rerunfilecheck)             Before: 7267C14DBBF9E1490EFE4E68037EB7F2;699
-(rerunfilecheck)             After:  C6995354734543CDF01DC0CF5393C602;898.
+(rerunfilecheck)             Before: 3D4EBC76F3C529C4E3B42D0DAA1F1D81;1295
+(rerunfilecheck)             After:  29579C43D0F3624F21C2751ED395C721;1295.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 231.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 276.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 230 ({)
+### simple group (level 1) entered at line 275 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 22878 strings out of 492985
- 393643 string characters out of 6138639
- 471751 words of memory out of 5000000
- 25909 multiletter control sequences out of 15000+600000
+ 22892 strings out of 492985
+ 393840 string characters out of 6138639
+ 471933 words of memory out of 5000000
+ 25916 multiletter control sequences out of 15000+600000
  70093 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,13n,58p,470b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1487,10 +1596,10 @@ pazo/fplmri.pfb></usr/share/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr
 nts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palati
 no/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/
 share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on MVC.pdf (4 pages, 125167 bytes).
+Output written on MVC.pdf (5 pages, 129114 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
- 115 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 1077 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 162 PDF objects out of 1000 (max. 8388607)
+ 139 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 1109 words of extra memory for PDF output out of 10000 (max. 10000000)
 

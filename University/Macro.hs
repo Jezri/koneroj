@@ -81,10 +81,10 @@ This is represented by the intersenctoin of the IS curve which shows the resulta
 > ** Assumption **
 > The economy is closed and there is no public sector(taxation or gorverment spending)
 
-![LM](pics/LM.jpg){width=100%, height=100%}
+![IS](pics/LM.jpg){width=100%, height=100%}
 
 ## The IS curve give all points of equilibrium in the financial market
-![IS](pics/IS.jpg){width=100%, height=100%}
+![LM](pics/IS.jpg){width=100%, height=100%}
 
 |]
 
@@ -126,4 +126,14 @@ This means that the asset must be sold at a maket price $P_m$ such that the inte
 $\frac{Pi}{P_m} = i_e$
 
 This give a counterintuitive result that the market prce and the market interest rates are  inversly related. If the interest rate on a bond has increased this would seem to make it more disarable and so increase its prices, but this is not what has happened. Other bonds of similar risk are being sold on the market at higher interest rates, (Or lower costs and set interet) while the bond retains the same interst.
+
+> **Why is the demand for bonds not the same as the demand for money.**
+> * If there are more people who want money than bonds at a current interest rate.
+>
+> * This is repesented by a shift right in the supply of bonds as more people want to sell.
+> *There are sellers willing to sell goods below the old equilbrium price and stuggling to sell at that price and more buyers who would buy if the price were slightly less.
+> * A may buy a bond from B for some money.
+> * B will than use the money for purchase no finacnail goods from C.
+> * C will than buy more bonds from D with the same money, in the same period of time. 
 |]
+

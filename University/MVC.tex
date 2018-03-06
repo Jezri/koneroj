@@ -209,7 +209,52 @@ derivatives}\label{properties-of-the-derivatives}}
 \(f(x) = \sum_{n=0}^\infty \frac{f^{(n)}(a)}{n!} (x -a)^n\)
 
 \(\vec{f}(\vec{x}+\vec{h})= f(x)\) Try find another explaination or
-consult\hypertarget{full-notation}{%
+consult\hypertarget{chain-rule}{%
+\section{Chain rule}\label{chain-rule}}
+
+\textbf{Vector chain rule}
+
+\begin{quote}
+For \(f::\R^n \to R\) and \(\vec{G} :: \R \to \R^n\)
+\((f \circ \vec{G})= \sum _{i=1} ^n \frac{\partial f}{\partial x_i} \right_{\vec{G}(t)} \frac{\partial g_i}{\partial dt} \right_t\)
+\textbf{General Chain Rule}
+\end{quote}
+
+\begin{quote}
+For \(\vec{R} :: \vec{R}^m \to \vec{R}^n\) and
+\(\vec{G} :: \mathbb{R}^l \to \mathbb{R}^m\) (F \circ G)‘x = (F’ (G(x)))
+\times G’ x
+\end{quote}
+
+\hypertarget{directional-deravitives}{%
+\section{Directional deravitives}\label{directional-deravitives}}
+
+The directional derivative is defined as
+
+\begin{quote}
+\(D_u f (x) = \lim_{t \to 0} \frac{f(x+tu)- f(x)}{t} | \forall f:: \R^n \ to \R\)
+\end{quote}
+
+This is equivelant to
+
+\begin{quote}
+\(D_u f(x) = u \cdot \nabla f(x).\)
+\end{quote}
+
+\textbf{Results}
+
+\begin{quote}
+The direction of the maxiumium rate of increase of f is \(\nabla f\) and
+the rate of increase in this direction is \textbar{}\textbar{}\nabla f
+(x)\textbar{}\textbar{}.
+
+The direction of the miniumium rate of increase of f is \(-\nabla f\)
+and the rate of increase in this direction is \textbar{}\textbar{}-nabla
+f(x)\textbar{}\textbar{} \# Normals
+\end{quote}
+
+\hypertarget{maxima-and-minima}{%
+\section{Maxima and minima}\label{maxima-and-minima}}\hypertarget{full-notation}{%
 \section{Full Notation}\label{full-notation}}
 
 \textbf{Definition}

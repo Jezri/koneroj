@@ -13,7 +13,7 @@ import Koneroj
 
 main :: IO () 
 main = do 
-  let a = mdToLaTeXFold[mvc, differentials, productRules, derivativeProperties,twoDTan, tSeries, fullNotation, todo]
+  let a = mdToLaTeXFold[mvc, differentials, productRules, derivativeProperties,twoDTan, tSeries,todo, fullNotation]
   latexToFile "MVC.tex" a
 
 mvc :: Text
@@ -176,9 +176,42 @@ todo = [r|
 
 # Chain rule
 
+**Vector chain rule**
+
+> For $f::\R^n \to R$ and $\vec{G} :: \R \to \R^n$
+> $(f \circ \vec{G})= \sum _{i=1}  ^n \frac{\partial f}{\partial x_i} \right_{\vec{G}(t)} \frac{\partial g_i}{\partial dt} \right_t$ 
+**General Chain Rule**
+
+> For $\vec{R} :: \vec{R}^m \to \vec{R}^n$ and $\vec{G} :: \mathbb{R}^l \to \mathbb{R}^m$
+> (F \circ G)' x = (F' (G(x))) \times G' x
+
+
 # Directional deravitives
 
-# Normals
+The directional derivative is defined as
+
+> $D_u f (x) = \lim_{t \to 0} \frac{f(x+tu)- f(x)}{t} | \forall f:: \R^n \ to \R$
+
+
+This is equivelant to 
+
+
+> $D_u f(x) = u \cdot \nabla f(x).$
+
+
+**Results**
+
+> The direction of the maxiumium rate of increase of f is $\nabla f$ and the rate of increase in this direction is ||\nabla f (x)||.
+>
+> The direction of the miniumium rate of increase of f is $-\nabla f$ and the rate of increase in this direction is ||-nabla f(x)|| 
+
+# Normals and tangents
+
+## Hypersurface
+
+## normal
+
+## Tangent
 
 # Maxima and minima
 |]

@@ -193,3 +193,24 @@ How to make more of an unset amount of an attribute such as skill. Give every em
   - TRUNCATE
       * remove all data that is part of a structure
 * Data manipulation Languegea
+    
+    **Learn how pipes work in linux**
+
+# Levels of abstraction
+Merge the micro level needs of specific users to a macro level project.
+* External veiw
+* Abtracted to coneptual model
+* internal model
+* physical model(No need to worry about)
+
+Logical view is logically independent from the conceptual model the designers veiw will stay intact if there is a change in software used but internal model will change. The physical model is also orthoganal.
+
+# Emerging database
+Unstructured data.
+NoSQL^[Velocity, Volume, verity]
+Big data challange more and more unstructured information.
+tee pipes commands into a file.
+scp is server to desktop copy
+sql script file?
+.sql 
+
