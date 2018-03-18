@@ -169,3 +169,68 @@ Every vector space has at least 2 trivial subspace trvial subspaces and the whol
 * Proove that $\forall W_i \subset V \exists W_1 + \cdots + W_n = x_1 + cdots x_n | x_i \in w_i \forall i
 * x,y = W1 + Wn with xi + xn , y= y1 + yn xi,yi \in wi
 * thn x+y = (xi + yi ) + \cdots \Leftrightarrow x + y \in W
+* The direct sum V1 plus in circle Vn is a space of f consitiing of all ntuples x1 to x2 where each Xi is from vi and the operations are corodinate wise)
+* x1 to Xn + (y1 to y_n) = x+y1 + xn + yn
+* Let V be a vector space over a field F and let w1 to wn be subspaces of v
+  + suppose that every vector x from b can be uniquely wriiten as x = x_1 + X_n where each xi is from wi
+  + Than v is isomorphic to the direct sum of w1 cirlce plus wn
+  + **Proof** An isomophism is a bijection which presevers perations
+  + define a mapping a from v to the direct sum by A_x is a sum of n tuple x_1 to x_n where x is x_1 to x_n with x_i an element from xi \in wi
+  + The image is this ntuple
+  + it is easy to check that a is one to one and a bijection and preseves operations and a of x plus a y = ax + ay
+  + What doe this strong condition
+  +
+  +Proove that the following staments are equivalent.
+  1) every vector x from v can be uniquley written as x is x_1 plus x_n where each x_i is from w_i and 
+  2) v s the sum of all those subspaces the interesction of each wi with the sum of the rest of the subspaces = {0} for each i from 1 to n
+  3) and w_1 intersection w2 is = [0]
+  **Proof**
+  1 implies 2
+  The sum part is obvious and follows from the fact that every vector x from v can be writtine the sum form.
+  Now to see that the second part of 2 holds
+  let x \in wi \interstion \sum _{j \neq i }w_i 
+    write $x as x = \sum[j \neq i] x_i x\in x \in w_i
+    define x_i from wi by xi = -x
+  Than the sum x_i for i from 1 to n is the zero vector which is minus x 
+  $\sum i=1 \to n xi = \theta = \thata_ + \thata n times and so x = -xi = theta
+  **2 implies 1**
+  That x can be writtin tin this from follows from the v is the sum of wi.
+    **Uniquness** \underbace{y_1 + x_1}{z_n} x_1 - y_1 = \theta
+      show that z_i = is the sum minus z_j forall j neq i
+      So zi is a vector from wi and wi is in the sumof wi
+
+# Rank of a matirx
+
+Let a be an m by n matrix in the field n
+
+Where the rows are vectors of Fn which is a subapce of fn
+and the columns are vectors from fm which is a subsapce of A
+
+The dimersion of the space is the row rank or column rank of the matrix
+
+equivilantly the row rank of a is the number of thevectors in the maximal linearly indeendent subsystem of vectors a1 to am
+The column rank is identical 
+
+It can be easily checked that elementary row operations do change the row the row rank.
+Elementary column operations do not change the column rank
+
+The reduced row echelon form of a produced by gauss elimination, and a have the same row rank.
+The row rank of a is the number of none zero rows in a row echelon from of a
+
+The row rank and the column rank are equal? This is the main result and this is the rank of the matrix
+
+it suffices to show that the row rank does not exceed the column rank of A (trivial taking the transpose)
+since the coloumns of c are linearly indenpendent so there are only trivial solutions
+Consiquently row echelon form of c has has k none zero rows.
+Therefore we must have k linearly independent rows otherwise we would have a nontrivial solutions
+pick k linearly independent rows of C
+Than the columns cj1 to cjk corrisponding to bj1 to bjk are linearly independent
+Hence the column rank of A is greater than or equal to K
+since the row and column rank is equal they are called the rank of the matirx
+
+Proove that a system of linear equations Ax =b hax a solution iff rank of the extended matrix A|b = rank A
+
+**Proof** ax is b has a solution iff b belongs to coumn space of a iff rank of ab is rank of a
+
+Find a basis of the solution space of a system of homegenius equations
+

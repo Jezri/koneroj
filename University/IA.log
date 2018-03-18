@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.2.9)  5 MAR 2018 10:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.10)  13 MAR 2018 08:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **IA.tex
 (./IA.tex
 LaTeX2e <2017-04-15>
-Babel <3.15> and hyphenation patterns for 84 language(s) loaded.
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/share/texmf/tex/latex/tufte-latex/tufte-book.cls
 Document Class: tufte-book 2015/06/21 v3.5.2 Tufte-book class
 (/usr/local/share/texmf/tex/latex/tufte-latex/tufte-common.def
@@ -57,7 +57,7 @@ Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 69.
 )
 (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 
 (/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
@@ -137,7 +137,7 @@ Package: titletoc 2011/12/15 v1.6 TOC entries
 \ttl@leftsep=\dimen110
 )
 (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
 (/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
@@ -184,54 +184,53 @@ Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 \Hy@pagecounter=\count96
 
 (/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count97
 
 (/usr/share/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `unicode' set `true' on input line 4374.
+Package hyperref Info: Option `unicode' set `true' on input line 4383.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2017/03/14 v6.85a Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2018/02/06 v6.86b Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4374.
-Package hyperref Info: Hyper figures OFF on input line 4498.
-Package hyperref Info: Link nesting OFF on input line 4503.
-Package hyperref Info: Hyper index ON on input line 4506.
-Package hyperref Info: Plain pages OFF on input line 4513.
-Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4383.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4751.
+Package hyperref Info: Bookmarks ON on input line 4762.
 \c@Hy@tempcnt=\count98
 
 (/usr/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5104.
+LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen112
 \Fld@menulength=\count99
 \Field@Width=\dimen113
 \Fld@charsize=\dimen114
-Package hyperref Info: Hyper figures OFF on input line 6358.
-Package hyperref Info: Link nesting OFF on input line 6363.
-Package hyperref Info: Hyper index ON on input line 6366.
-Package hyperref Info: backreferencing OFF on input line 6373.
-Package hyperref Info: Link coloring OFF on input line 6378.
-Package hyperref Info: Link coloring with OCG OFF on input line 6383.
-Package hyperref Info: PDF/A mode OFF on input line 6388.
-LaTeX Info: Redefining \ref on input line 6428.
-LaTeX Info: Redefining \pageref on input line 6432.
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
 \Hy@abspage=\count100
 \c@Item=\count101
 )
-
-Package hyperref Message: Driver (autodetected): hpdftex.
+Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
 \Fld@listcount=\count102
 \c@bookmark@seq@number=\count103
 
@@ -299,7 +298,7 @@ Package: paralist 2017/01/22 v2.7 Extended list environments
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
 )
 (/usr/share/texmf-dist/tex/latex/microtype/letterspace.sty
-Package: letterspace 2017/07/07 v2.7 Robust letterspacing (RS)
+Package: letterspace 2018/01/14 v2.7a Robust letterspacing (RS)
 LaTeX Info: Redefining \lsstyle on input line 345.
 LaTeX Info: Redefining \lslig on input line 346.
 LaTeX Info: Redefining \textls on input line 371.
@@ -318,7 +317,7 @@ Package xcolor Info: Package option `usenames' ignored on input line 216.
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
 (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
@@ -1099,167 +1098,4779 @@ LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
 l.152   \end{itemize}}
                       
 ? 
+! Undefined control sequence.
+\quote ...minipage}{\textwidth } \renewenviroment 
+                                                  {qoute}{\begin {Sbox}\begi...
+l.154 \begin{quote}
+                   
+? 
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 161--162
-[][][][][][][]  
+! Package calc Error: `.' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 \begin{quote}
+                   
+? 
+! Extra }, or forgotten \endgroup.
+\quote ...box}\begin {minipage}{\textwidth * 0.8}}
+                                                   {\end {minipage}\end {Sbo...
+l.154 \begin{quote}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.154 \begin{quote}
+                   
+? 
+
+! Package calc Error: `.' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 \begin{quote}
+                   
+? 
+! Extra }, or forgotten \endgroup.
+\endSbox ...hould be in LR mode}\@ehd \fi \egroup 
+                                                  
+l.154 \begin{quote}
+                   
+? 
+
+! LaTeX Error: \begin{minipage} on input line 154 ended by \end{Sbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 \begin{quote}
+                   
+? 
+
+! LaTeX Error: \TheSbox is empty!.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 \begin{quote}
+                   
+? 
+! Extra }, or forgotten \endgroup.
+\quote ...{Sbox}\colorbox {qoutecolor}{\TheSbox }}
+                                                   
+l.154 \begin{quote}
+                   
+? 
+
+! LaTeX Error: \begin{Sbox} on input line 154 ended by \end{minipage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 \end{quote}
+                 
+? 
+
+! LaTeX Error: Misplaced \endSbox! Should be in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 \end{quote}
+                 
+? 
+
+! LaTeX Error: \begin{minipage} on input line 154 ended by \end{Sbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 \end{quote}
+                 
+? 
+
+! LaTeX Error: \begin{minipage} on input line 154 ended by \end{quote}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 \end{quote}
+                 
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.161 \end{quote}
+                 
+? 
+
+Overfull \hbox (326.0181pt too wide) in paragraph at lines 154--161
+[]\T1/pplj/m/n/10 qoute$[]$[][][][][][]  
+ []
+
+! Undefined control sequence.
+\quote ...minipage}{\textwidth } \renewenviroment 
+                                                  {qoute}{\begin {Sbox}\begi...
+l.166 \begin{quote}
+                   
+? 
+
+! Package calc Error: `.' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.166 \begin{quote}
+                   
+? 
+! Extra }, or forgotten \endgroup.
+\quote ...box}\begin {minipage}{\textwidth * 0.8}}
+                                                   {\end {minipage}\end {Sbo...
+l.166 \begin{quote}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.166 \begin{quote}
+                   
+? 
+
+! Package calc Error: `.' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.166 \begin{quote}
+                   
+? 
+! Extra }, or forgotten \endgroup.
+\endSbox ...hould be in LR mode}\@ehd \fi \egroup 
+                                                  
+l.166 \begin{quote}
+                   
+? 
+
+! LaTeX Error: \begin{minipage} on input line 166 ended by \end{Sbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.166 \begin{quote}
+                   
+? 
+
+! LaTeX Error: \TheSbox is empty!.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.166 \begin{quote}
+                   
+? 
+! Extra }, or forgotten \endgroup.
+\quote ...{Sbox}\colorbox {qoutecolor}{\TheSbox }}
+                                                   
+l.166 \begin{quote}
+                   
+? 
+! Undefined control sequence.
+\quote ...minipage}{\textwidth } \renewenviroment 
+                                                  {qoute}{\begin {Sbox}\begi...
+l.169 \begin{quote}
+                   
+? 
+
+! Package calc Error: `.' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \begin{quote}
+                   
+? 
+! Extra }, or forgotten \endgroup.
+\quote ...box}\begin {minipage}{\textwidth * 0.8}}
+                                                   {\end {minipage}\end {Sbo...
+l.169 \begin{quote}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.169 \begin{quote}
+                   
+? 
+
+! Package calc Error: `.' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \begin{quote}
+                   
+? 
+! Extra }, or forgotten \endgroup.
+\endSbox ...hould be in LR mode}\@ehd \fi \egroup 
+                                                  
+l.169 \begin{quote}
+                   
+? 
+
+! LaTeX Error: \begin{minipage} on input line 169 ended by \end{Sbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \begin{quote}
+                   
+? 
+
+! LaTeX Error: \TheSbox is empty!.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \begin{quote}
+                   
+? 
+! Extra }, or forgotten \endgroup.
+\quote ...{Sbox}\colorbox {qoutecolor}{\TheSbox }}
+                                                   
+l.169 \begin{quote}
+                   
+? 
+! Undefined control sequence.
+\quote ...minipage}{\textwidth } \renewenviroment 
+                                                  {qoute}{\begin {Sbox}\begi...
+l.175 \begin{quote}
+                   
+? 
+
+! Package calc Error: `.' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.175 \begin{quote}
+                   
+? 
+! Extra }, or forgotten \endgroup.
+\quote ...box}\begin {minipage}{\textwidth * 0.8}}
+                                                   {\end {minipage}\end {Sbo...
+l.175 \begin{quote}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.175 \begin{quote}
+                   
+? 
+
+! Package calc Error: `.' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.175 \begin{quote}
+                   
+? 
+! Extra }, or forgotten \endgroup.
+\endSbox ...hould be in LR mode}\@ehd \fi \egroup 
+                                                  
+l.175 \begin{quote}
+                   
+? 
+
+! LaTeX Error: \begin{minipage} on input line 175 ended by \end{Sbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.175 \begin{quote}
+                   
+? 
+
+! LaTeX Error: \TheSbox is empty!.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.175 \begin{quote}
+                   
+? 
+! Extra }, or forgotten \endgroup.
+\quote ...{Sbox}\colorbox {qoutecolor}{\TheSbox }}
+                                                   
+l.175 \begin{quote}
+                   
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.179   \(
+          -a^{-1} > 0\) \textbf{(a)}
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.179   \(
+          -a^{-1} > 0\) \textbf{(a)}
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.179   \(
+          -a^{-1} > 0\) \textbf{(a)}
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.181   \(
+          -a^{-1} \cdot a > 0\) \textbf{(O3)}
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.181   \(
+          -a^{-1} \cdot a > 0\) \textbf{(O3)}
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.181   \(
+          -a^{-1} \cdot a > 0\) \textbf{(O3)}
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183   \(
+          -1 > 0\) \textbf{Contradiction}
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183   \(
+          -1 > 0\) \textbf{Contradiction}
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.183   \(
+          -1 > 0\) \textbf{Contradiction}
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.184 \end{enumerate}
+                     
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.184 \end{enumerate}
+                     
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.184 \end{enumerate}
+                     
+? 
+
+! LaTeX Error: \begin{Sbox} on input line 175 ended by \end{minipage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.185 \end{quote}
+                 
+? 
+
+! LaTeX Error: Misplaced \endSbox! Should be in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.185 \end{quote}
+                 
+? 
+
+! LaTeX Error: \begin{minipage} on input line 175 ended by \end{Sbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.185 \end{quote}
+                 
+? 
+
+! LaTeX Error: \begin{minipage} on input line 175 ended by \end{quote}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.185 \end{quote}
+                 
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.185 \end{quote}
+                 
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.192 \end{quote}
+                 
+? 
+! Extra }, or forgotten \endgroup.
+\endminipage ...pagefalse \color@endgroup \egroup 
+                                                  \expandafter \@iiiparbox \...
+l.192 \end{quote}
+                 
+? 
+
+! LaTeX Error: \begin{quote} on input line 175 ended by \end{minipage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.192 \end{quote}
+                 
+? 
+! Extra }, or forgotten \endgroup.
+\endSbox ...hould be in LR mode}\@ehd \fi \egroup 
+                                                  
+l.192 \end{quote}
+                 
+? 
+
+! LaTeX Error: \begin{minipage} on input line 169 ended by \end{Sbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.192 \end{quote}
+                 
+? 
+
+! LaTeX Error: \begin{Sbox} on input line 169 ended by \end{quote}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.192 \end{quote}
+                 
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.192 \end{quote}
+                 
+? 
+! Undefined control sequence.
+\quote ...minipage}{\textwidth } \renewenviroment 
+                                                  {qoute}{\begin {Sbox}\begi...
+l.196 \begin{quote}
+                   
+? 
+
+! Package calc Error: `.' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.196 \begin{quote}
+                   
+? 
+! Extra }, or forgotten \endgroup.
+\quote ...box}\begin {minipage}{\textwidth * 0.8}}
+                                                   {\end {minipage}\end {Sbo...
+l.196 \begin{quote}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.196 \begin{quote}
+                   
+? 
+
+! Package calc Error: `.' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.196 \begin{quote}
+                   
+? 
+! Extra }, or forgotten \endgroup.
+\endSbox ...hould be in LR mode}\@ehd \fi \egroup 
+                                                  
+l.196 \begin{quote}
+                   
+? 
+
+! LaTeX Error: \begin{minipage} on input line 196 ended by \end{Sbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.196 \begin{quote}
+                   
+? 
+! Extra }, or forgotten \endgroup.
+\quote ...{Sbox}\colorbox {qoutecolor}{\TheSbox }}
+                                                   
+l.196 \begin{quote}
+                   
+? 
+
+! LaTeX Error: \begin{Sbox} on input line 196 ended by \end{minipage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.205 \end{quote}
+                 
+? 
+
+! LaTeX Error: Misplaced \endSbox! Should be in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.205 \end{quote}
+                 
+? 
+
+! LaTeX Error: \begin{minipage} on input line 196 ended by \end{Sbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.205 \end{quote}
+                 
+? 
+
+! LaTeX Error: \begin{minipage} on input line 196 ended by \end{quote}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.205 \end{quote}
+                 
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.205 \end{quote}
+                 
+? 
+
+Overfull \hbox (1220.81853pt too wide) in paragraph at lines 196--205
+[]\T1/pplj/m/n/10 qoute$[]$[][][][][][] 
+ []
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.206 \end{quote}
+                 
+? 
+! Extra }, or forgotten \endgroup.
+\endminipage ...pagefalse \color@endgroup \egroup 
+                                                  \expandafter \@iiiparbox \...
+l.206 \end{quote}
+                 
+? 
+
+! LaTeX Error: \begin{quote} on input line 196 ended by \end{minipage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.206 \end{quote}
+                 
+? 
+
+! LaTeX Error: Misplaced \endSbox! Should be in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.206 \end{quote}
+                 
+? 
+
+! LaTeX Error: \begin{minipage} on input line 169 ended by \end{Sbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.206 \end{quote}
+                 
+? 
+
+! LaTeX Error: \begin{minipage} on input line 169 ended by \end{quote}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.206 \end{quote}
+                 
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.206 \end{quote}
+                 
+? 
+! Undefined control sequence.
+\quote ...minipage}{\textwidth } \renewenviroment 
+                                                  {qoute}{\begin {Sbox}\begi...
+l.208 \begin{quote}
+                   
+? 
+
+! Package calc Error: `.' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.208 \begin{quote}
+                   
+? 
+! Extra }, or forgotten \endgroup.
+\quote ...box}\begin {minipage}{\textwidth * 0.8}}
+                                                   {\end {minipage}\end {Sbo...
+l.208 \begin{quote}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.208 \begin{quote}
+                   
+? 
+
+! Package calc Error: `.' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.208 \begin{quote}
+                   
+? 
+! Extra }, or forgotten \endgroup.
+\endSbox ...hould be in LR mode}\@ehd \fi \egroup 
+                                                  
+l.208 \begin{quote}
+                   
+? 
+
+! LaTeX Error: \begin{minipage} on input line 208 ended by \end{Sbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.208 \begin{quote}
+                   
+? 
+
+! LaTeX Error: \TheSbox is empty!.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.208 \begin{quote}
+                   
+? 
+! Extra }, or forgotten \endgroup.
+\quote ...{Sbox}\colorbox {qoutecolor}{\TheSbox }}
+                                                   
+l.208 \begin{quote}
+                   
+? 
+
+! LaTeX Error: \begin{Sbox} on input line 208 ended by \end{minipage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 \end{quote}
+                 \hypertarget{absolute-value}{%
+? 
+
+! LaTeX Error: Misplaced \endSbox! Should be in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 \end{quote}
+                 \hypertarget{absolute-value}{%
+? 
+
+! LaTeX Error: \begin{minipage} on input line 208 ended by \end{Sbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 \end{quote}
+                 \hypertarget{absolute-value}{%
+? 
+
+! LaTeX Error: \begin{minipage} on input line 208 ended by \end{quote}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 \end{quote}
+                 \hypertarget{absolute-value}{%
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.210 \end{quote}
+                 \hypertarget{absolute-value}{%
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.211 ...on{Absolute value}\label{absolute-value}}
+                                                  
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.211 ...on{Absolute value}\label{absolute-value}}
+                                                  
+? 
+
+! Package titlesec Error: Entered in horizontal mode.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.211 ...on{Absolute value}\label{absolute-value}}
+                                                  
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.221   \(
+          |a| = 0 \Leftrightarrow a = 0\)
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.226     i
+           f \(a = 0 \to |a| = 0\) deffinition
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.226     i
+           f \(a = 0 \to |a| = 0\) deffinition
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.226     i
+           f \(a = 0 \to |a| = 0\) deffinition
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.226     i
+           f \(a = 0 \to |a| = 0\) deffinition
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.226     i
+           f \(a = 0 \to |a| = 0\) deffinition
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.226     i
+           f \(a = 0 \to |a| = 0\) deffinition
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.226     i
+           f \(a = 0 \to |a| = 0\) deffinition
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.226     i
+           f \(a = 0 \to |a| = 0\) deffinition
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.226     i
+           f \(a = 0 \to |a| = 0\) deffinition
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.226     i
+           f \(a = 0 \to |a| = 0\) deffinition
+? q
+OK, entering \batchmode...
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.226     i
+           f \(a = 0 \to |a| = 0\) deffinition
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 226
+[][]
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 185--186
-[][][][][][][] 
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.228     i
+           f \(|a| = 0 \to a = 0\) contrapositive
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 228
+[][]
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 192--193
-[][][][][][][] 
+! LaTeX Error: \begin{Sbox} on input line 166 ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229   \end{itemize}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.231   \(
+          b |-a | = |-a|\)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 231
+[][]
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 205--206
-[][][][][][][] 
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233   u
+         se each three cases of dichotomy
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 233
+[][]
  []
 
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 206--207
-[][][][][][][]  
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.235   t
+         ry d and e tutorial questions
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 235
+[][]
  []
 
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 210--211
-[][][][][][][][]  
+! LaTeX Error: \begin{minipage} on input line 166 ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.236 \end{itemize}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.236 \end{itemize}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Undefined control sequence.
+\quote ...minipage}{\textwidth } \renewenviroment 
+                                                  {qoute}{\begin {Sbox}\begi...
+l.253 \begin{quote}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package calc Error: `.' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.253 \begin{quote}
+                   
+I expected to see one of: + - * / )
+
+! Extra }, or forgotten \endgroup.
+\quote ...box}\begin {minipage}{\textwidth * 0.8}}
+                                                   {\end {minipage}\end {Sbo...
+l.253 \begin{quote}
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.253 \begin{quote}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! Package calc Error: `.' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.253 \begin{quote}
+                   
+I expected to see one of: + - * / )
+
+! Extra }, or forgotten \endgroup.
+\endSbox ...hould be in LR mode}\@ehd \fi \egroup 
+                                                  
+l.253 \begin{quote}
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{minipage} on input line 253 ended by \end{Sbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.253 \begin{quote}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra }, or forgotten \endgroup.
+\quote ...{Sbox}\colorbox {qoutecolor}{\TheSbox }}
+                                                   
+l.253 \begin{quote}
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.257   \(
+          a = a - b + b \to |a| = |a - b + b| = |a-b| + |b|\)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.257   \(
+          a = a - b + b \to |a| = |a - b + b| = |a-b| + |b|\)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.257   \(
+          a = a - b + b \to |a| = |a - b + b| = |a-b| + |b|\)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.259   \(
+          b = b - a + a \to |b| = |b - a + a| = |b-a| + |a|\)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.259   \(
+          b = b - a + a \to |b| = |b - a + a| = |b-a| + |a|\)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.259   \(
+          b = b - a + a \to |b| = |b - a + a| = |b-a| + |a|\)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.261   b
+         y c \(|b| \leq |a - b| + |a| \to |b| \leq |b - a|\)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.261   b
+         y c \(|b| \leq |a - b| + |a| \to |b| \leq |b - a|\)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.261   b
+         y c \(|b| \leq |a - b| + |a| \to |b| \leq |b - a|\)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.263   c
+         ombining
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.263   c
+         ombining
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.263   c
+         ombining
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265   m
+         ultiply ** \(-1\) **
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265   m
+         ultiply ** \(-1\) **
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.265   m
+         ultiply ** \(-1\) **
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.267   \(
+          |a - b| \leq |a| - |b| - |a - b| \leq |a| - |b| \leq a-b\)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.267   \(
+          |a - b| \leq |a| - |b| - |a - b| \leq |a| - |b| \leq a-b\)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.267   \(
+          |a - b| \leq |a| - |b| - |a - b| \leq |a| - |b| \leq a-b\)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.270   \(
+          \Leftrightarrow\) triangle inequility to proove with minus just sub
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.270   \(
+          \Leftrightarrow\) triangle inequility to proove with minus just sub
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.270   \(
+          \Leftrightarrow\) triangle inequility to proove with minus just sub
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.272 \end{itemize}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.272 \end{itemize}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.272 \end{itemize}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{Sbox} on input line 253 ended by \end{minipage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.273 \end{quote}
+                 \hypertarget{posittive-square-root}{%
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Misplaced \endSbox! Should be in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.273 \end{quote}
+                 \hypertarget{posittive-square-root}{%
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{minipage} on input line 253 ended by \end{Sbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.273 \end{quote}
+                 \hypertarget{posittive-square-root}{%
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{minipage} on input line 253 ended by \end{quote}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.273 \end{quote}
+                 \hypertarget{posittive-square-root}{%
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.273 \end{quote}
+                 \hypertarget{posittive-square-root}{%
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (1037.20909pt too wide) in paragraph at lines 253--273
+[]\T1/pplj/m/n/10 qoute$[]$[][][][][][]  
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 14.4pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+! LaTeX Error: Something's wrong--perhaps a missing \item.
 
-[2]
-Overfull \hbox (18.0pt too wide) in paragraph at lines 273--274
-[][][][][][][][]  
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.274 ...quare Root}\label{posittive-square-root}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.274 ...quare Root}\label{posittive-square-root}}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package titlesec Error: Entered in horizontal mode.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.274 ...quare Root}\label{posittive-square-root}}
+                                                  
+The <format> argument cannot contain horizontal material
+such as text, \noindent, \makebox, etc.
+
+! Undefined control sequence.
+\quote ...minipage}{\textwidth } \renewenviroment 
+                                                  {qoute}{\begin {Sbox}\begi...
+l.276 \begin{quote}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package calc Error: `.' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.276 \begin{quote}
+                   
+I expected to see one of: + - * / )
+
+! Extra }, or forgotten \endgroup.
+\quote ...box}\begin {minipage}{\textwidth * 0.8}}
+                                                   {\end {minipage}\end {Sbo...
+l.276 \begin{quote}
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.276 \begin{quote}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! Package calc Error: `.' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.276 \begin{quote}
+                   
+I expected to see one of: + - * / )
+
+! Extra }, or forgotten \endgroup.
+\endSbox ...hould be in LR mode}\@ehd \fi \egroup 
+                                                  
+l.276 \begin{quote}
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{minipage} on input line 276 ended by \end{Sbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.276 \begin{quote}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \TheSbox is empty!.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.276 \begin{quote}
+                   
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra }, or forgotten \endgroup.
+\quote ...{Sbox}\colorbox {qoutecolor}{\TheSbox }}
+                                                   
+l.276 \begin{quote}
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{Sbox} on input line 276 ended by \end{minipage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.279 \end{quote}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Misplaced \endSbox! Should be in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.279 \end{quote}
+                 
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{minipage} on input line 276 ended by \end{Sbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.279 \end{quote}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{minipage} on input line 276 ended by \end{quote}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.279 \end{quote}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.279 \end{quote}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (44.09772pt too wide) in paragraph at lines 276--279
+[]\T1/pplj/m/n/10 qoute$[]$[][][][][][]  
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 279--280
-[][][][][][]  
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.285   \textbf
+               {Case} \(r = 0\)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.289   \textbf
+               {Case} \(r > 0\)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.294     \(
+            \exists\, r^{\frac{1}{2}}\)
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.294     \(
+            \exists\, r^{\frac{1}{2}}\)
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.294     \(
+            \exists\, r^{\frac{1}{2}}\)
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.294     \(
+            \exists\, r^{\frac{1}{2}}\)
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.294     \(
+            \exists\, r^{\frac{1}{2}}\)
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.294     \(
+            \exists\, r^{\frac{1}{2}}\)
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.294     \(
+            \exists\, r^{\frac{1}{2}}\)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 294
+[][]
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 14.4pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
 
-[3]
-Overfull \hbox (18.0pt too wide) in paragraph at lines 333--334
-[][][][][][][]  
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.305     \(
+            r^{\frac{1}{2}}\) is unique\textbf{(lemma 4)}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 305
+[][]
+ []
+
+
+! LaTeX Error: \begin{Sbox} on input line 253 ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.306   \end{itemize}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{quote} on input line 253 ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.307 \end{itemize}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+\quote ...minipage}{\textwidth } \renewenviroment 
+                                                  {qoute}{\begin {Sbox}\begi...
+l.309 \begin{quote}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package calc Error: `.' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.309 \begin{quote}
+                   
+I expected to see one of: + - * / )
+
+! Extra }, or forgotten \endgroup.
+\quote ...box}\begin {minipage}{\textwidth * 0.8}}
+                                                   {\end {minipage}\end {Sbo...
+l.309 \begin{quote}
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.309 \begin{quote}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! Package calc Error: `.' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.309 \begin{quote}
+                   
+I expected to see one of: + - * / )
+
+! Extra }, or forgotten \endgroup.
+\endSbox ...hould be in LR mode}\@ehd \fi \egroup 
+                                                  
+l.309 \begin{quote}
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{minipage} on input line 309 ended by \end{Sbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.309 \begin{quote}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra }, or forgotten \endgroup.
+\quote ...{Sbox}\colorbox {qoutecolor}{\TheSbox }}
+                                                   
+l.309 \begin{quote}
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.315   \textbf
+               {Case} \(a < 1\)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.315   \textbf
+               {Case} \(a < 1\)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.315   \textbf
+               {Case} \(a < 1\)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.320     \(
+            0 < a , a^2 < a \Rightarrow a \in S\)\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.320     \(
+            0 < a , a^2 < a \Rightarrow a \in S\)\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.320     \(
+            0 < a , a^2 < a \Rightarrow a \in S\)\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.320     \(
+            0 < a , a^2 < a \Rightarrow a \in S\)\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.320     \(
+            0 < a , a^2 < a \Rightarrow a \in S\)\\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 320
+[][]
+ []
+
+
+! LaTeX Error: \begin{Sbox} on input line 309 ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.321   \end{itemize}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.323   \textbf
+               {Case} \(a \geq 1\)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 323
+[][]
+ []
+
+
+! LaTeX Error: \begin{minipage} on input line 309 ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.330 \end{itemize}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.330 \end{itemize}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.333 \end{quote}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{Sbox} on input line 309 ended by \end{minipage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.333 \end{quote}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Misplaced \endSbox! Should be in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.333 \end{quote}
+                 
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra }, or forgotten \endgroup.
+\endSbox ...hould be in LR mode}\@ehd \fi \egroup 
+                                                  
+l.333 \end{quote}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{quote} on input line 309 ended by \end{Sbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.333 \end{quote}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{minipage} on input line 166 ended by \end{quote}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.333 \end{quote}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.333 \end{quote}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Undefined control sequence.
+\quote ...minipage}{\textwidth } \renewenviroment 
+                                                  {qoute}{\begin {Sbox}\begi...
+l.335 \begin{quote}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package calc Error: `.' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.335 \begin{quote}
+                   
+I expected to see one of: + - * / )
+
+! Extra }, or forgotten \endgroup.
+\quote ...box}\begin {minipage}{\textwidth * 0.8}}
+                                                   {\end {minipage}\end {Sbo...
+l.335 \begin{quote}
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.335 \begin{quote}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! Package calc Error: `.' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.335 \begin{quote}
+                   
+I expected to see one of: + - * / )
+
+! Extra }, or forgotten \endgroup.
+\endSbox ...hould be in LR mode}\@ehd \fi \egroup 
+                                                  
+l.335 \begin{quote}
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{minipage} on input line 335 ended by \end{Sbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.335 \begin{quote}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \TheSbox is empty!.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.335 \begin{quote}
+                   
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra }, or forgotten \endgroup.
+\quote ...{Sbox}\colorbox {qoutecolor}{\TheSbox }}
+                                                   
+l.335 \begin{quote}
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341   \(
+          a+1\) is a bound
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341   \(
+          a+1\) is a bound
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.341   \(
+          a+1\) is a bound
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.346     \(
+            (a + 1)^2\) is an upperbound of \(S\)
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.346     \(
+            (a + 1)^2\) is an upperbound of \(S\)
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.346     \(
+            (a + 1)^2\) is an upperbound of \(S\)
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.346     \(
+            (a + 1)^2\) is an upperbound of \(S\)
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.346     \(
+            (a + 1)^2\) is an upperbound of \(S\)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 346
+[][]
  []
 
 ! Undefined control sequence.
 l.351 ... a^2 + 2a + 1 > 2a > a \Rightarrow x \nin
                                                    S\)
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 357--358
-[][][][][][][]  
- []
+
+! LaTeX Error: \begin{Sbox} on input line 335 ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.353   \end{itemize}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 388--389
-[][][][][][][]  
- []
+! LaTeX Error: \begin{minipage} on input line 335 ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.354 \end{itemize}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.354 \end{itemize}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.357 \end{quote}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 ! Undefined control sequence.
+\endminipage ...\expandafter \@iiiparbox \@mpargs 
+                                                  {\unvbox \@tempboxa }
+l.357 \end{quote}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   @
 l.400 \toprule
               
-? 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   @
+l.400 \toprule
+              
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `@' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.400 \toprule
+              
+I expected to see one of: + - * / )
+
 ! Undefined control sequence.
-<recently read> \bottomrule 
-                            
+<argument> ...\@tempdima \@parboxrestore \toprule 
+                                                  \@@par 
+l.400 \toprule
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Runaway argument?
+{\@checkend {minipage}\expandafter \endgroup \if@endpe \@doendpe \fi \ETC.
+! Paragraph ended before \calc@assign@generic was complete.
+<to be read again> 
+                   \par 
+l.400 \toprule
+              
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+\quote ...minipage}{\textwidth } \renewenviroment 
+                                                  {qoute}{\begin {Sbox}\begi...
+l.400 \toprule
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package calc Error: `.' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.400 \toprule
+              
+I expected to see one of: + - * / )
+
+! Extra }, or forgotten \endgroup.
+\quote ...box}\begin {minipage}{\textwidth * 0.8}}
+                                                   {\end {minipage}\end {Sbo...
+l.400 \toprule
+              
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.400 \toprule
+              
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! Package calc Error: `.' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.400 \toprule
+              
+I expected to see one of: + - * / )
+
+! Extra }, or forgotten \endgroup.
+\endSbox ...hould be in LR mode}\@ehd \fi \egroup 
+                                                  
+l.400 \toprule
+              
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{minipage} on input line 400 ended by \end{Sbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.400 \toprule
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra }, or forgotten \endgroup.
+\quote ...{Sbox}\colorbox {qoutecolor}{\TheSbox }}
+                                                   
+l.400 \toprule
+              
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.400 \toprule
+              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.400 \toprule
+              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.400 \toprule
+              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.400 \toprule
+              
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.400 \toprule
+              
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.400 \toprule
+              
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.400 \toprule
+              
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.400 \toprule
+              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 400
+[][]
+ []
+
+
+! LaTeX Error: \begin{Sbox} on input line 400 ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.400 \toprule
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.400 \toprule
+              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 400
+[][]
+ []
+
+
+! LaTeX Error: \begin{minipage} on input line 400 ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.400 \toprule
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.400 \toprule
+              
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.400 \toprule
+              
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Undefined control sequence.
+\endminipage ...\expandafter \@iiiparbox \@mpargs 
+                                                  {\unvbox \@tempboxa }
+l.400 \toprule
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Argument of \@iiiparbox has an extra }.
+<inserted text> 
+                \par 
+l.400 \toprule
+              
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+\@checkend {minipage}\expandafter \endgroup \if@endpe \@doendpe \fi \if@ignore 
+\ETC.
+! Paragraph ended before \@iiiparbox was complete.
+<to be read again> 
+                   \par 
+l.400 \toprule
+              
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.400 \toprule
+              
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Misplaced \crcr.
+\LT@echunk ->\crcr 
+                   \LT@save@row \cr \egroup \global \setbox \@ne \lastbox \u...
+l.401 \endhead
+              
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
+\LT@echunk ->\crcr \LT@save@row 
+                                \cr \egroup \global \setbox \@ne \lastbox \u...
+l.401 \endhead
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Misplaced \cr.
+\LT@echunk ->\crcr \LT@save@row \cr 
+                                    \egroup \global \setbox \@ne \lastbox \u...
+l.401 \endhead
+              
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Extra }, or forgotten \endgroup.
+\LT@echunk ->\crcr \LT@save@row \cr \egroup 
+                                            \global \setbox \@ne \lastbox \u...
+l.401 \endhead
+              
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
+\LT@echunk ...etbox \@ne \lastbox \unskip \egroup 
+                                                  
+l.401 \endhead
+              
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Incompatible list can't be unboxed.
+\LT@get@widths ->\setbox \tw@ \hbox {\unhbox \@ne 
+                                                  \let \LT@old@row \LT@save@...
+l.401 \endhead
+              
+Sorry, Pandora. (You sneaky devil.)
+I refuse to unbox an \hbox in vertical mode or vice versa.
+And I can't open any boxes in math mode.
+
+! Undefined control sequence.
+\LT@end@hd@ft ...ox \z@ \LT@get@widths \LT@bchunk 
+                                                  
+l.401 \endhead
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Misplaced alignment tab character &.
+l.404 \end{minipage} &
+                       \begin{minipage}[t]{0.58\columnwidth}\raggedright
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.410 \end{minipage} &
+                       \begin{minipage}[t]{0.58\columnwidth}\raggedright
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
 l.413 \bottomrule
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 423--424
-[][][][][][][]  
- []
+! Misplaced \crcr.
+\endlongtable ->\crcr 
+                      \noalign {\let \LT@entry \LT@entry@chop \xdef \LT@save...
+l.414 \end{longtable}
+                     
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\endlongtable ->\crcr \noalign 
+                               {\let \LT@entry \LT@entry@chop \xdef \LT@save...
+l.414 \end{longtable}
+                     
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \crcr.
+\LT@echunk ->\crcr 
+                   \LT@save@row \cr \egroup \global \setbox \@ne \lastbox \u...
+l.414 \end{longtable}
+                     
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \cr.
+\LT@echunk ->\crcr \LT@save@row \cr 
+                                    \egroup \global \setbox \@ne \lastbox \u...
+l.414 \end{longtable}
+                     
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Extra }, or forgotten \endgroup.
+\LT@echunk ->\crcr \LT@save@row \cr \egroup 
+                                            \global \setbox \@ne \lastbox \u...
+l.414 \end{longtable}
+                     
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
+\LT@echunk ...etbox \@ne \lastbox \unskip \egroup 
+                                                  
+l.414 \end{longtable}
+                     
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.414 \end{longtable}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.414 \end{longtable}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.414 \end{longtable}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.414 \end{longtable}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.414 \end{longtable}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.414 \end{longtable}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.414 \end{longtable}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.414 \end{longtable}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.414 \end{longtable}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Incompatible list can't be unboxed.
+\LT@get@widths ->\setbox \tw@ \hbox {\unhbox \@ne 
+                                                  \let \LT@old@row \LT@save@...
+l.414 \end{longtable}
+                     
+Sorry, Pandora. (You sneaky devil.)
+I refuse to unbox an \hbox in vertical mode or vice versa.
+And I can't open any boxes in math mode.
+
+
+! LaTeX Error: \begin{quote} on input line 154 ended by \end{longtable}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.414 \end{longtable}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! You can't use `\unskip' in vertical mode.
+\endminipage ->\par \unskip 
+                            \ifvoid \@mpfootins \else \vskip \skip \@mpfooti...
+l.423 \end{quote}
+                 
+Sorry...I usually can't take things from the current page.
+Try `I\vskip-\lastskip' instead.
+
+! Extra \endgroup.
+\color@endgroup ->\endgraf \endgroup 
+                                     
+l.423 \end{quote}
+                 
+Things are pretty mixed up, but I think the worst is over.
+
+! Too many }'s.
+\endminipage ...pagefalse \color@endgroup \egroup 
+                                                  \expandafter \@iiiparbox \...
+l.423 \end{quote}
+                 
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
 
 ! Undefined control sequence.
+\endminipage ...\expandafter \@iiiparbox \@mpargs 
+                                                  {\unvbox \@tempboxa }
+l.423 \end{quote}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   @
 l.435 \toprule
               
-? 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   @
+l.435 \toprule
+              
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `@' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.435 \toprule
+              
+I expected to see one of: + - * / )
+
 ! Undefined control sequence.
-<recently read> \bottomrule 
-                            
+<argument> ...\@tempdima \@parboxrestore \toprule 
+                                                  \@@par 
+l.435 \toprule
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Runaway argument?
+{\@checkend {minipage}\expandafter \endgroup \if@endpe \@doendpe \fi \ETC.
+! Paragraph ended before \calc@assign@generic was complete.
+<to be read again> 
+                   \par 
+l.435 \toprule
+              
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+\quote ...minipage}{\textwidth } \renewenviroment 
+                                                  {qoute}{\begin {Sbox}\begi...
+l.435 \toprule
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package calc Error: `.' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.435 \toprule
+              
+I expected to see one of: + - * / )
+
+! Extra }, or forgotten \endgroup.
+\quote ...box}\begin {minipage}{\textwidth * 0.8}}
+                                                   {\end {minipage}\end {Sbo...
+l.435 \toprule
+              
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.435 \toprule
+              
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! Package calc Error: `.' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.435 \toprule
+              
+I expected to see one of: + - * / )
+
+! Extra }, or forgotten \endgroup.
+\endSbox ...hould be in LR mode}\@ehd \fi \egroup 
+                                                  
+l.435 \toprule
+              
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{minipage} on input line 435 ended by \end{Sbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.435 \toprule
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra }, or forgotten \endgroup.
+\quote ...{Sbox}\colorbox {qoutecolor}{\TheSbox }}
+                                                   
+l.435 \toprule
+              
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.435 \toprule
+              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.435 \toprule
+              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.435 \toprule
+              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.435 \toprule
+              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.435 \toprule
+              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.435 \toprule
+              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Argument of \LT@array has an extra }.
+<inserted text> 
+                \par 
+l.435 \toprule
+              
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \LT@array was complete.
+<to be read again> 
+                   \par 
+l.435 \toprule
+              
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.435 \toprule
+              
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Misplaced \crcr.
+\LT@echunk ->\crcr 
+                   \LT@save@row \cr \egroup \global \setbox \@ne \lastbox \u...
+l.436 \endhead
+              
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \cr.
+\LT@echunk ->\crcr \LT@save@row \cr 
+                                    \egroup \global \setbox \@ne \lastbox \u...
+l.436 \endhead
+              
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Extra }, or forgotten \endgroup.
+\LT@echunk ->\crcr \LT@save@row \cr \egroup 
+                                            \global \setbox \@ne \lastbox \u...
+l.436 \endhead
+              
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
+\LT@echunk ...etbox \@ne \lastbox \unskip \egroup 
+                                                  
+l.436 \endhead
+              
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Incompatible list can't be unboxed.
+\LT@get@widths ->\setbox \tw@ \hbox {\unhbox \@ne 
+                                                  \let \LT@old@row \LT@save@...
+l.436 \endhead
+              
+Sorry, Pandora. (You sneaky devil.)
+I refuse to unbox an \hbox in vertical mode or vice versa.
+And I can't open any boxes in math mode.
+
+! Undefined control sequence.
+\LT@end@hd@ft ...ox \z@ \LT@get@widths \LT@bchunk 
+                                                  
+l.436 \endhead
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Misplaced alignment tab character &.
+l.437 \((S_s - \epsilon)^2 - a\) &
+                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.439 &
+        \(> S_s^2 - 2 S_s \epsilon\)\tabularnewline
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.440 &
+        \(> 0\) \textbf{(Sub in \(\epsilon\) and solve)}\tabularnewline
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.441 \((S_s-\epsilon)^2\) &
+                             \$\textgreater{} a\tabularnewline
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Undefined control sequence.
 l.442 \bottomrule
                  
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 453--454
-[][][][][][][]  
+! Misplaced \crcr.
+\endlongtable ->\crcr 
+                      \noalign {\let \LT@entry \LT@entry@chop \xdef \LT@save...
+l.443 \end{longtable}
+                     
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\endlongtable ->\crcr \noalign 
+                               {\let \LT@entry \LT@entry@chop \xdef \LT@save...
+l.443 \end{longtable}
+                     
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \crcr.
+\LT@echunk ->\crcr 
+                   \LT@save@row \cr \egroup \global \setbox \@ne \lastbox \u...
+l.443 \end{longtable}
+                     
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \cr.
+\LT@echunk ->\crcr \LT@save@row \cr 
+                                    \egroup \global \setbox \@ne \lastbox \u...
+l.443 \end{longtable}
+                     
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Extra }, or forgotten \endgroup.
+\LT@echunk ->\crcr \LT@save@row \cr \egroup 
+                                            \global \setbox \@ne \lastbox \u...
+l.443 \end{longtable}
+                     
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
+\LT@echunk ...etbox \@ne \lastbox \unskip \egroup 
+                                                  
+l.443 \end{longtable}
+                     
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.443 \end{longtable}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.443 \end{longtable}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.443 \end{longtable}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{minipage} on input line 435 ended by \end{longtable}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.443 \end{longtable}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.443 \end{longtable}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.453 \end{quote}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Undefined control sequence.
+\endminipage ...\expandafter \@iiiparbox \@mpargs 
+                                                  {\unvbox \@tempboxa }
+l.453 \end{quote}
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   T
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   T
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+
+! Package calc Error: `T' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+I expected to see one of: + - * / )
+
+Runaway argument?
+{\@checkend {minipage}\expandafter \endgroup \if@endpe \@doendpe \fi \ETC.
+! Paragraph ended before \calc@assign@generic was complete.
+<to be read again> 
+                   \par 
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Undefined control sequence.
+\quote ...minipage}{\textwidth } \renewenviroment 
+                                                  {qoute}{\begin {Sbox}\begi...
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package calc Error: `.' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+I expected to see one of: + - * / )
+
+! Extra }, or forgotten \endgroup.
+\quote ...box}\begin {minipage}{\textwidth * 0.8}}
+                                                   {\end {minipage}\end {Sbo...
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! Package calc Error: `.' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+I expected to see one of: + - * / )
+
+! Extra }, or forgotten \endgroup.
+\endSbox ...hould be in LR mode}\@ehd \fi \egroup 
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{minipage} on input line 524 ended by \end{Sbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra }, or forgotten \endgroup.
+\quote ...{Sbox}\colorbox {qoutecolor}{\TheSbox }}
+                                                   
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{Sbox} on input line 524 ended by \end{minipage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Misplaced \endSbox! Should be in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{minipage} on input line 524 ended by \end{Sbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{minipage} on input line 524 ended by \end{quote}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (724.085pt too wide) in paragraph at lines 524--524
+[]\T1/pplj/m/n/10 qoute$[]$[][][][][][]  
+ []
+
+! Undefined control sequence.
+\quote ...minipage}{\textwidth } \renewenviroment 
+                                                  {qoute}{\begin {Sbox}\begi...
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package calc Error: `.' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+I expected to see one of: + - * / )
+
+! Extra }, or forgotten \endgroup.
+\quote ...box}\begin {minipage}{\textwidth * 0.8}}
+                                                   {\end {minipage}\end {Sbo...
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! Package calc Error: `.' invalid at this point.
+
+See the calc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+I expected to see one of: + - * / )
+
+! Extra }, or forgotten \endgroup.
+\endSbox ...hould be in LR mode}\@ehd \fi \egroup 
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{minipage} on input line 524 ended by \end{Sbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \TheSbox is empty!.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra }, or forgotten \endgroup.
+\quote ...{Sbox}\colorbox {qoutecolor}{\TheSbox }}
+                                                   
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{Sbox} on input line 524 ended by \end{minipage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Misplaced \endSbox! Should be in LR mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{minipage} on input line 524 ended by \end{Sbox}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{minipage} on input line 524 ended by \end{quote}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (807.24193pt too wide) in paragraph at lines 524--524
+[]\T1/pplj/m/n/10 qoute$[]$[][][][][][]  
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
+! LaTeX Error: Something's wrong--perhaps a missing \item.
 
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 14.4pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-[4]
-Overfull \hbox (18.0pt too wide) in paragraph at lines 470--471
-[][][][][][][][]  
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package titlesec Error: Entered in horizontal mode.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+The <format> argument cannot contain horizontal material
+such as text, \noindent, \makebox, etc.
+
+
+! LaTeX Error: \PazoBB allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \PazoBB allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \PazoBB allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> ...} 0 by archamedian principle \eixts 
+                                                  n\_0 \in \mathbb {N} such ...
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 524.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 524.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 524.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! Package titlesec Error: Entered in horizontal mode.
+
+See the titlesec package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+The <format> argument cannot contain horizontal material
+such as text, \noindent, \makebox, etc.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.524 Th
+        e bound of a set is a number such that all numbers in the set are less
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.526 \item[Supremum]
+                     
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.526 \item[Supremum]
+                     
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 526
+[][]
  []
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.529 \item[Maximum and miniumium]
+                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.529 \item[Maximum and miniumium]
+                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 529
+[][]
+ []
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.532 \end{description}
+                       \textbf{Absolute value}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.532 \end{description}
+                       \textbf{Absolute value}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.532 \end{description}
+                       \textbf{Absolute value}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{Sbox} on input line 524 ended by \end{description}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.532 \end{description}
+                       \textbf{Absolute value}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.532 \end{description}
+                       \textbf{Absolute value}
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 
 Package bibentry Warning: You have used \nobibliography* 
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.534 ... < 0 \quad -a \end{cases}\)\end{document}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.534 ... < 0 \quad -a \end{cases}\)\end{document}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
  Make it at least 14.4pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 486.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 486.
+ [2]
+
+! LaTeX Error: \begin{Sbox} on input line 524 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.534 ... < 0 \quad -a \end{cases}\)\end{document}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 534.
+
+! LaTeX Error: Float(s) lost.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.534 ... < 0 \quad -a \end{cases}\)\end{document}
+                                                  
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 534.
  (./IA.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 486.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 486.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 534.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 534.
 Package rerunfilecheck Info: File `IA.out' has not changed.
-(rerunfilecheck)             Checksum: 1487349FDBDC8E278712EE934DBEC809;446.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 486.
- ) 
+(rerunfilecheck)             Checksum: 860468182F8A7C7CDD914938D0A7153E;361.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 534.
+ )
+(\end occurred inside a group at level 8)
+
+### semi simple group (level 8) entered at line 524 (\begingroup)
+### semi simple group (level 7) entered at line 524 (\begingroup)
+### semi simple group (level 6) entered at line 524 (\begingroup)
+### semi simple group (level 5) entered at line 524 (\begingroup)
+### semi simple group (level 4) entered at line 435 (\begingroup)
+### semi simple group (level 3) entered at line 435 (\begingroup)
+### semi simple group (level 2) entered at line 435 (\begingroup)
+### semi simple group (level 1) entered at line 435 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 22852 strings out of 492985
- 393180 string characters out of 6138639
- 471496 words of memory out of 5000000
- 25890 multiletter control sequences out of 15000+600000
- 45396 words of font info for 73 fonts, out of 8000000 for 9000
+ 22830 strings out of 492982
+ 392975 string characters out of 6138579
+ 468892 words of memory out of 5000000
+ 25892 multiletter control sequences out of 15000+600000
+ 43791 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,12n,58p,469b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
-r/share/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb></usr/share/texmf-dist/fo
-nts/type1/public/mathpazo/fplmbb.pfb></usr/share/texmf-dist/fonts/type1/public/
-mathpazo/fplmr.pfb></usr/share/texmf-dist/fonts/type1/public/mathpazo/fplmri.pf
-b></usr/share/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/share/texmf-d
-ist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/
-helvetic/uhvr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb>
-</usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-di
-st/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on IA.pdf (5 pages, 126553 bytes).
+ 69i,14n,58p,469b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/fpl/fplbj8a.p
+fb></usr/share/texmf-dist/fonts/type1/public/mathpazo/fplmbb.pfb></usr/share/te
+xmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/texmf-dist/fonts/ty
+pe1/public/fpl/fplrc8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb
+8a.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/t
+exmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf-dist/fonts/type
+1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplri
+8a.pfb>
+Output written on IA.pdf (2 pages, 94789 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 1069 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 97 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 500000)
+ 1061 words of extra memory for PDF output out of 10000 (max. 10000000)
 

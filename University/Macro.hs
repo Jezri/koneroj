@@ -12,7 +12,7 @@ import Notation (macroEconomics)
 
 main :: IO () 
 main = do 
-  let a = mdToLaTeXFold[macro, islm ,financialMarket, bonds, macroEconomics]
+  let a = mdToLaTeXFold[macro, islm ,money ,financialMarket, bonds, macroEconomics]
   latexToFile "Macro.tex" a
 
 
@@ -39,19 +39,39 @@ GDP(Gross Domestic product)
 
 
 # GDP composition
+
+Value added production aproach
+
+* Value added to second hand goods is included
   To measure the GDP^[ GDP and total demand(Z) are used interchangably]
+
  it is simplest to measure the amount spent on goods and services and then subtract the part of that which is spent on goods and services produced outside the economy (imports) or before the given year (invetories). Finaly goods not bought in the bought elsewhere (exports) or stored for the future are added.^[Exports and inventories are ignored in the begining part of the course]
 
-  * Consumption(C): The goods and services purchased by consumers
-  * Investment(I): The sum of
-    + no-resedential investment: Capital equipment and land bought by firms
-    + resedntial investment: Housing bought by consumers
-  * Goverment spending(G): The amount the goverment spendings buying goods and services from firms and employing workers. (goverment tranfers are not payments for work done and are not included)
-  * Net exports (X-I): The total amount of exports minus imports.
-  * Net inventory build up
+**Indirect taxes - subsidies are included as are added buisness cost**
+
+* Consumption(C): The goods and services purchased by consumers
+* Investment(I): The sum of
+  + no-resedential investment: Capital equipment and land bought by firms
+  + resedntial investment: Housing bought by consumers
+  + Depreciation is added to net investment
+* Goverment spending(G): The amount the goverment spendings buying goods and services from firms and employing workers. (goverment tranfers are not payments for work done and are not included)
+* Net exports (X-I): The total amount of exports minus imports.
+* Net inventory build up
+
 
 This brings us to the equation
 $Z = C + I + G$
+
+**Income Aproach**
+
+* Wages
+* Buisness Profits
+* interest
+* Coporate profits and retained earnings
+* add depreciation, as some of this income was for mainting and replacing brocken goods.
+* Add net forign income (income from abroad is inculded in gdp)
+
+**GDP and GNI are the same**
 
 ## Consumption
 Consumption is a function of disposable income ^[income minus taxation] ($Y_D$)
@@ -67,11 +87,36 @@ Philips curve
 -------------
 |]
 
+money :: Text
+money =[r|
+# Money
+
+> H_d = C_d + R_d
+
+The amount of central bank money demanded is the sum of central bank money demanded by conumers as cash and the amount required by privatre banks for Resverves
+
+> R_d = \theta(1-c)M_d where theta is the required reserve ratio.
+
+|]
 islm :: Text
 islm = [r|
 
 # ISLM model
 
+> * *i* $Y=E$ in equilibrium
+> * *ii* $Y \equiv C + S + T$ an accounting defintion
+> *iii* $Y \equiv C + I_r + G$ where $I_r$ is realized spending.
+>   + This includes build up and depletion of inventories
+>   + At equilibrium in the goods market planed investment is equal to realized investment.
+> *iv* $Y=E \leftrightarrow C + I_r + G = C +I + G \leftrightarrow I_r=I$ there are no unplanned build ups of inventories at equilibrium 
+> *  leaks = injections **(i, ii, iii)
+
+> **Consumption functions**
+> *i* $C = c_1 + c_2 Y_D \quad c_1 > 0 \quad 0 < c_2 < 1$
+
+> **Equilibrium income**
+> 
+> *i* $Y = \frac{1-c_2}( c_1 - c_2 + I + G)$ from combining previous equaitions
 The ISLM model models the equilibrium for income and interest rates, the quintity of money supplied and consumption. 
 
 This is represented by the intersenctoin of the IS curve which shows the resultant intrest rates for all equilibriums between money demand which is a function of income and money supply, and the LM curve which represents all the points of equilibrium (where consumption is equil to output and no inventories are built up or depleted) and consuption (which contains investment which is a function of interest rates) 

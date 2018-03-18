@@ -19,6 +19,7 @@ main = do
                         realComparison, 
                         absoluteValue', 
                         positiveRoots,
+                        naturalNumbers,
                         introductoryAnalysisNotation, 
                         inGlossary(absoluteValue)
                         ]
@@ -253,3 +254,39 @@ positiveRoots = [r|
 
 |]
 
+naturalNumbers :: Text
+naturalNumbers = [r|
+
+> **Peano Axioms of the natural numebrs**
+>
+> There is a unique subset of of the natural numbers satisfying the following properties.
+> 
+> * **P1** $\,0 \in \mathbb{N}$
+> * **P2** $a \in \mathbb{N} \Rightarrow a+1 \in \mathbb{N}$
+> * **P3** $\forall a \in \mathbb{N}, a+1 \neq{0}$
+> *  **P4** these porperties uniquely define the natural numbers
+
+Theorem 1.14 are the basic properties of induction
+* Proof of 1 is done badly fix
+* Proof 3 induction is on n not m
+
+write induction in three seperate paragraphs
+archamedian properties are important
+
+Learn all named thoerems!
+
+* base case
+* inductive step 
+* proof
+
+# The sets \mathbb Q and the set \mathbb{R}\mathbb[Q] are both dense
+x y in R x<y
+-> y-x > 0 \> q / y-x > 0 
+by archamedian principle \eixts n_0 \in \mathbb{N}
+such that n_o > 2/y-x > 0
+
+Let S = m \in Z m0 x < m
+By AP this is not empty
+So S is bounded below
+So s has a minalmal element by theoerm 1.15
+|]

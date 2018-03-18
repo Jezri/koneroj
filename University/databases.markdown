@@ -214,3 +214,6 @@ scp is server to desktop copy
 sql script file?
 .sql 
 
+# Relations
+
+* View data logically rather than phyisically
