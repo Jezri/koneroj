@@ -76,7 +76,7 @@ k 1 > 0
  
 
 # Absolute value
-  definition
+definition
 |r| = -x \forall x < 0
     = x \quad x > 0
 $\infty \nin \mathbb{R}
@@ -152,3 +152,36 @@ From section 1.2 onwards we do not motavate from axioms.
     - Assume $M^2< a$ put $\epsilon = min\{ \frac{a-M^2-a}{4_a},M_a}$ than $\epsilon > 0$
     - (M)
 
+# $\sqrt{2}$ is irration
+
+**Proove by contradiction**
+
+Suppose
+$\sqrt{2} = \frac{p}{q} | p,q \in \mathbb{Z}^+ and the is no k \in \mathbb{Z} such that p = k P1 q = k q1
+
+2 = \frac{p^2}{q^2} \to p^2 = 2q^2 so p^2 is even so p is even by contrapositive.
+
+* p^2 is a mutiple of 4
+* So q is even **Contradiction**
+
+**Proove bernolli's inequility**
+By induction
+
+* $(1 + x)^0  = 1 = 1+0x$
+* Assume true for n
+* muliply both sides by (1+x) and remove convient terms
+
+# Chapter II Sequences(Convergence)
+
+A sequences maps the naturals onto the reals
+
+Is the sequnce \frac{n}{n+1} convergent?
+
+**Proof**
+$\left| \frac{n}{n+1} - 1 \right| < \epslion$
+$\left| -1/ n+1 | = 1/n+1 < \epsilon $
+
+* Solving give $\frac{1}[\epsilon} -1 < n
+* Since k_epsilon belongs to r kepsilon' by achemedian principle 1/k(a) + 1 < \epsilon.
+* For any m > k(a) \to n+1 > k(a) +1
+* 1/keplsion + 1 < \epsilon>

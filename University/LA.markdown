@@ -234,3 +234,97 @@ Proove that a system of linear equations Ax =b hax a solution iff rank of the ex
 
 Find a basis of the solution space of a system of homegenius equations
 
+# Linear Transformations
+
+* Let v and w be vector spaces over the same field F
+* A mapping A:V \to W is a linear transformation if the following two axioms are satisfied
+* A(x+y) = A(x) + A(y) for all x,y in v
+* and saclar mulitplication is preseved
+* A: V \to V is a linear operator
+* V \to F is a linear functional
+* It follows from the axioms of a vector space that 
+* A(\theta) = \theta
+   + Proof
+   + A(\theta + \theta) = A(\theta) + A(\theta)
+   + a + a = a 
+   + -a + a + a = -a + a
+   + a = theta
+* **ii**
+  + A(-x) = -A(x) 
+  + A(x) +(-A(x))
+  + A(\theta) = \theta
+  + A(-x)= A(x)
+*A(\sum \alpha_i x_i) = \sum \alpha_i A(x_i)
+
+Examples of linear tranformatinos
+
+* The rotation of the plane about the origin through by some angle $\phi$ countercloakwise 
+* Proof is geometric
+*
+* Projection of the plane onto any line through the origin
+* Reflection
+* Any vector x 
+* Also the reflection of the plane by a lnie through the originare linear operators
+* Transloation is not a linear operator
+* Let a be any m by n matrix over a field F and define A from fn to fm by A of x is A(x) 
+* than A is a linaer transformations.
+* Infact any Matrix multiplication is a a linear tranformations
+* Differentiation of polynomials is a linear operations: D F[x] f(x) \to f'(x) \in F[x]
+* where (\alpha_0 \alpha_2x ) = \alpha_1 + 2 \alpha_2 x
+* Intergration
+*C[a,b] f(x) \to \int_a^b f(x)dx \in \mathbb[R]
+* There are many anti derivaties of a given funciton (artbitrary constants)
+
+## Linear operrators II
+
+* For every linear transformation A from V to W
+* The kernal is the set of a vectors mapping to \theta
+* The image of A Is the set of a ys mapped to 
+* Both the kernal and the image are subspaces of V and the image of A is a subspace of W
+To see for example that the kernal is a subspace 
+
+* x,y \in ker A A(x) = \theta a(y) = \theta
+
+**Theroem**
+
+Assume that V is finit dimensional
+
+Then the dimension of the kernal of A + the dimension of the image of A is the dimension of V
+Proof 
+Pick a basis a1 to am in the kernal and extend it to a basis a1 , an, b1, bk \in V
+And so we claim that A (b1) \to A9(bK) is a basis of the image of A.
+
+* To see that the span of $<A(b1) \dots A(bn)> = image A let y \in A
+* Then x \in V s.i A(x)=y Write x as \alpha_1 a1 + 
+* Then y = A(x) =A(alpha a a1 + ... + \beat1 b1 +...)
+* = 0 + \beta1 + beta(A)
+
+* To see that A(b1) ... A(bk) are linearly independent
+* Consider an arbitrary linear combination of the As
+* As a is a linear combinaion take A of an arbitary linaer combinations of b
+* All bs are memebers of the kernal of A
+* So the linear combination of bs can be expressed in the basis of ker A which are as
+* so alpha a + .. - \beta 1 b1 = \theta
+* impleis all alphas and betas must be zeros
+* The alphas form an image of the keranl and the bs form an image of the kernal together they form a basis of the system
+* Then the dimansion of it solution space is n-rank(a) so
+
+> Proof 
+> Define A from F^n \to F^m 
+> A(x) = A(x)
+> Then the kernal of this linear tranformation is the solution space of our system
+> And the image of a is the column space of our matrix
+> Which is the rank of the matrix
+> Then apply the theroem
+> Suppose that the rank o
+
+# Test The chapter vector spaces not includeding linear tranformations
+
+* Typical exersizes
+  + Supppose you have some vectors in a vector space check if the some vectors form a basis of that space and find the coordinates of that vector
+  + Perform gauss elemination and if you get the identity matix it is a bisis and the cordinates of another vector is 
+  + **The transition matirx is from S to S'** !!!!!!!!
+    * S|S' and perform gauss elimination to get E|T 
+    * The cordinate of x is the new basis [x]_s = T{x}_s'
+  + Proove simpler statment not two system lemma
+

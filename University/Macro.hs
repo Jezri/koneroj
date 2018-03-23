@@ -91,6 +91,13 @@ money :: Text
 money =[r|
 # Money
 
+Demand for central bank currrency
+
+* Demand by banks
+* Resevsves = $\theta$ Deposites
+* Dposites = (1-c)Md
+* The money nultiplier is $\frac{1}[c+\theta(1-c)]
+
 > H_d = C_d + R_d
 
 The amount of central bank money demanded is the sum of central bank money demanded by conumers as cash and the amount required by privatre banks for Resverves

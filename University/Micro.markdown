@@ -79,3 +79,15 @@ Compliments:
   Always consumed in fixed proportion.
   
   L shaped line : unpaired goods yeild no extra utility.
+
+# Optimal solutions
+
+* For interior choices in an optimal bundle consumers optimize by consuming a bit of each.
+* If x_1 = 0 and x_2 is equal to zero than it is a corner or boundry solution
+* The indiference curve is to flat or to steep using the budget line
+    + Perfect Subsitutes with different costs
+    + This can be prooved MU1 = MU2
+    + It does not happen in all the time with substitues.(Not perfect substitues)
+    + If P_1 is less than P_2 the consumer only consumers good 1
+* Kinky Solutions 
+* Optimum can be found by matching tangents instead find the line all bundles are on.
