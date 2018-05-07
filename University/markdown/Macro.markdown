@@ -431,3 +431,154 @@ Other veriables
 
 
 
+** Next tut test in 2 weeks**
+
+# Summary.
+
+Aggregate expenditure rather then demand.
+
+AD prices arn't fixed
+AE prices are fixed.
+
+* Output determination in the medium run.
+* Determined by supply side factors.
+
+# Labour market
+
+## Output market and labour market
+
+Aggregtae expaedntiure increase so firms increas output so firms increase employment so unemployment goes down so wages go up so prices go up so prices go up so wages go up.
+
+## Descriptions
+
+W: Nominal wages or nominal wages
+
+Real wage rate = $\frac{W}{P}$
+
+So price wage spiral. Vicouse cycle of increases in money and inflation. 
+
+**Relax the assumption of fixed prices**
+
+The total population is devided into.
+The instatutional civilian poputaion and the non instatutional civilian population.
+
+Non instatutional is all individuals less then 16 + the number of people in prison and the poeple in asylums and the poeple in the miltary and in old age homes.
+
+Instatutional: Labour force and out of labour force.
+
+Employed: **Narrow defnition** Full time or part time working people with some form of renumeration(__posibly in kind but not for the time__).
+
+Labour force: employed or activly looking for work while available for employment.
+
+Out of labour force: Discouraged workers, retired people >=65yrs, Students in tertairy labour force + severly disabled people + people who don't wan't to work
+Discouraged workers: Would like to work but are not activly looking for work.
+
+**Find equations for narrow and strict employments rate**
+
+Participation rate: What pecentage of the non instatutional civilian population that engaged in economic activity.
+
+## Flows of workers.
+
+Sclorotic labour market. (Harding of vessels, So little flow)
+Poorly functionaing economic system with few transactions
+
+Sclorosis in the labour market: 
+
+  Poorly functioning
+ 
+  * Few hiring
+  * Few seperations
+    + Few layoffs
+    + Few quits
+  * Unemplomnet pool is oftern stagnet.
+
+A given unemployment rate may meen a high unemployment rate or the other.
+
+
+### Couses of unemployment
+
+#### Frictanal
+
+#### Cyclical 
+
+Fluctutions in the business cycle
+
+peek truf expansion and contraction.
+
+Steuctural unemployment
+
+#### Stuctural
+
+Large amount of unskilled labour
+
+Large demand for skilled labour
+
+#### South African labour market flows
+
+
+## Wages Determination & Price Setting.
+
+### Effiiciency wage thoery
+
+Labour demand and labour supply.
+
+**Firms offer wage abouve the market clearing wage why?**
+
+Efficinecy wage.
+Reduce turn over rate.
+Imporoving producticity.
+Keep unions out.
+
+Efficiency wage theory focuses on the type of job.
+
+efficiency wages tend to be higher in high skilled jobs.
+
+Labour markets determin the efficiency wage.
+
+Productivity = $\frac{Y}{N}$
+
+### Barginig wage thoery
+
+Workers and uncions set wages.
+
+$W = P^e F(u,z)$
+
+Price determination.
+
+Y = AN
+$A = I \to y = N$
+In a perfect
+In a perfecly competitive amrak.
+Workers bargining power.
+In imperfect competition firms set price at greater then equilibrium.
+The more costly it is to replace an employ the bargining power of the laburer increases.
+Labour market condition and skills are important 
+### Wage determination
+
+P = (1+m)W. m will be highest under monopoly.
+#### Collective bargining
+
+#### Employers
+
+#### Bargining unions and workers.
+
+Reservation rate:
+Miniumium nessesary wage.
+
+Efficiency wage:
+
+
+
+
+is always above reservation wage to attract productive worker
+### Works and unions
+
+### Prices
+
+## Employment and output.
+
+
+# Aggregate supply aggregate demand function.
+
+# Look at dyanamics and rates.
+

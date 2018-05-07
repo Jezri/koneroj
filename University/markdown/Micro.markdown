@@ -91,3 +91,137 @@ Compliments:
     + If P_1 is less than P_2 the consumer only consumers good 1
 * Kinky Solutions 
 * Optimum can be found by matching tangents instead find the line all bundles are on.
+
+
+## Cross price effect
+
+First derive the direct deamnd then rearrange it
+
+For cobb douglas there are no cros price effect.
+Reduces demand for commodity 1 then commodity 1 is a gross complement for commodity 2.
+
+For perfect compliments the partial derivate of $x_1/p_2 <0$
+
+For perfect 1 for 1 substitues 
+
+Own price elasticy of demand and cross price elasticty
+$\frac{p_i}{x_i} \frac{p_1}{d_x}{d_p}$
+
+Cross price elasticity
+
+$\frac{p_i}{x_j} \frac{d_x}{d_p}$
+
+Odenary good own price elastity is <=0
+Giffen good > 0
+
+Substitues and complements
+Substitues >0
+Complements $< 0$
+
+Demand function normally consist of all goods and prices.
+
+Be able to caculate the demand function and increased demand. 
+
+If income increase than the budget line is going to shift outwards in a parallel manner.
+
+Use this to derive engel curve and demand per income.
+
+Labal every single quantity of each good for test
+
+Income offer curve or income expanding path is on a graph with goods x1 and x2 on the axis.
+
+Engle good is income vs quantity demand
+normal goods have a positivly sloped engel curve
+
+An inferior good is one that when one becomes richer one consumes less of.
+
+No good is inferior at all income levels all goods are normal at very low income levels.
+
+You cannot have both goods being inferior
+
+How do we use ordenary demand to calculate engle curve.
+    Solve for income.
+    
+    for complements curves are stright and upward sloping
+
+    Perfect substitutes we know the utility function.
+    x_2(p_1, p_2, m) = {0, if p_1 < p_2 \\ m/p \
+    Verticle line for engle curve in a.
+
+## Cobb douglas function. 
+
+How do we derive the engle curve. Isolate 
+
+* Demand is a linear function of m.
+* The change in demand is propotionate to th change in income.
+*
+
+# Homotheticity
+
+* A consumers preferences are homothetic iff the depend on the ratio of good
+* (x1, x_2) \leq (y_1,y_2) \iff (kx_1 k_2) \leq (k_y1, k_y_2)
+* The marginal rate of substitution is the same on all points of a line drawn straight from the origin.
+* If preferences are homothetic preferences are 
+* Douglas preferences. 
+* So the ratio of goods consumed so it is simple to calculate levels o good at all income levels
+
+## Quasi linear preferences. Good is a neceity with perfectly inelastic demand.
+
+A very poor consumer can only afford good1 as you're income increase you can start to increase the amount of the necesity you consume.
+As income continues to increase, the consumer buys the same amount 'optimium' of good 2 
+
+Income Changes; Quasilinear utility.
+
+# tut test.
+Strict conveity impllies unique solution
+
+Demand for a cobb-douglas good
+
+* $U(x_1 x_2) = x_1 ^a + x_2 ^b$
+
+* $x_1 = \frac{am}{(a+b)p_1}$
+
+## Coner solution
+
+Happens when the indeference curve is always steeper or flater or steeper then the indiference curve
+
+If $MRS < -\frac{p1}{p2}$ consume only good 2
+otherwise consume only good 1
+
+# Revealed Preference
+
+Utility can be deduced by the consumers actual choices.
+Based on amount demanded at different price levels and different income levels construct or deduce their prferences
+
+Assume gruops prefences do not change over the period of time that the data is gathered.
+The preferences are strictly convex and monotonic
+
+## Direct Preference revalation
+
+The consumer is given a choice between 2 affordable bundles. the chosen bundle is reaveled diriectly to be preffered to the nonchosen one.
+
+## Indirect 
+
+Compare budgets i different budget sets.
+Basiclly just applying transitivity.
+This involves moving the slope of the budget line.
+
+If we can find any right to left downward diagonals of Ds the data is irrational with two or more entries.
+
+### Strong axiom (uses revealed preferences)
+
+If x is revealed directly or indirectly as prefeed to y than it is never the case that y is prefered directly or indirectly compared to x.
+
+Add all indirect preferences
+
+# Test 2
+
+* E
+* C wierd?
+* 
+  + Use tangency.
+  + Substitute into budget constraint
+* Go over budget constraints.
+* perfect complememnts.
+* x1=3 x2.
+* So just substitute in the ratio.

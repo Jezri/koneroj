@@ -404,3 +404,195 @@ And so we claim that $A (b1) \to A9(bK)$ is a basis of the image of A.
     * The cordinate of x is the new basis [x]_s = T{x}_s'
   + Proove simpler statment not two system lemma
 
+# Algebra of linear operators 
+
+Let V be a vector spaces over a field F A,B : V \to V
+
+B composite A of x = B times A of x.
+
+the cordinates of some vector in B comp A = the somponents of B in s and A in S
+
+each term is equel to B times some sum
+
+is equel to the sum of a_{ki} \sum{Bik}alpha = \sum \sum B_{ik} X_{ik}) ai
+
+{B \circ A (a_i)}_s = 
+
+## Rotation of the plane around the origin counter cloackwise around the origin counter cloackwise through the angle phi
+Clearly a phi rotation compostion a psi is composition of these two linear operators.
+A(psi + phi).
+S = {e_1, e_2}
+[A_y]_s = (cos )
+
+Proove that multipplyinh the two together gets the result result term by term.
+
+Let A be a lilnear operator acting on V -> and B is an inverse of A if
+
+A comp B = B comp A = E
+
+Every linear operator can have at most one inverse.
+
+Indead suppose that B and C are inverses of A Then B = B comp I
+
+If a linear operator has an inverse that inverse is unique and is donated by A^{-1}
+
+# Theorem. 
+
+A matrix a is invertable iff its determinent is none singular.
+
+Let A : V \to V be a linear operator , let S be a basis of V let A = [A]_S. Than A has inverse iff A is none singular which meens that the determined of A is none singular. And in this case [A]^{-1}]_s = A^-1
+
+proof that A \com A^{-1} = \epsilon 
+A \time {A^-1} = E **The determinante of the product of matrixes is the product of the dterminites**
+
+A is non singular. [B]_s = A^{-1}
+AB = BA = E
+
+A A^_-1 = E
+A^{-1} A A^{-1} = A^{-1}
+A A^{-1} A A^{-1}  = A  A^{-1}
+
+#### Proove that if T is the transition matrix from s to s' than the transion matrix from s' to s is $T^{-1}$ 
+
+**Proof**
+
+Let r deonte the transtion matirx from s' to s
+
+then the columns of R are [a_i]_s'
+
+now note that the columns [a_i]_s forms the identity matrix
+
+it then follows from [x]_s = T [x]_{s'}
+
+So E = TR
+
+hence T is non singular and R is T^{-1}
+
+
+* let A : V \to V 
+* A = A[A]_s
+* B = [{A}]_s'
+* then B = T^-1 A T
+* Proof 
+* let the entries of A be alphas
+* B betas
+* and T gammas
+
+* A (B_j) = sum of beta kj kfrom 1 to n 
+* every b can be expressed by the transion matrix times a
+
+Chnage in summation we obtain the sum from sum of (sum of gamma Beta) a
+* A(bi) = A(sum of gama a) = sum gamma A(a_k)
+* = sum kfrom 1 to n of y ki over the sum from i 1 to n of alpha ik ai
+* = sum i = 1to n (sum k=1 to n) alpha ik gamma ki ai
+* we obtain the sum of gamma ikBeta ki = sum alpha ik gamma ki
+* TB = AT
+* B = T^{-1} AT
+
+##### Exersize Why we define transion matrix this way
+
+S consitie of as
+S' consits of bs
+
+A:V -> V by A(ai) = bi
+
+any vector x from v 
+f : \[x]_a a -> \{x}_a b
+Let A 
+Proove that this operatoion is T no matter which basis is used
+The matrix of A in old basis 
+A of A(a1) ... A(an) = A(an) = T
+[A]_{s'} = T^{-1} [A]_s T
+
+# More practicle exersize
+Let A be nxn matirx over a field f:
+
+def A:F^n \to f^n A(x) = A \cdot x
+Then the matrix of A in the standard basis e_1 to e_n is A'(e1) = A e1
+A(en) = A(en \cdot s) is nth column of A
+so the matrix of A is the standard basis is A'
+and the matirx of a in the basis S consisting of bs
+[A']_s = T^{-1}A T 
+T^-1 A T^-1
+where T = B
+
+* A typical exersize
+* The matrix of a linear operator A in a standard basis is given by the matrix A 
+
+    * A typical exersize
+    * The matrix of a linear operator A in a standard basis is given by the matrix A 
+    * The matrix of a in the standard basis is A compute the matirx B of A in the basis C
+    * B = T^{-1}A{T} T=C
+    * T|A -> T^{-1}A B = T^{-1A} \cdot T
+
+
+# $A \R^3 \to R^3$
+given a matrix of A 
+
+Find the matrix B of A in the basis {(1,0,-1),(2,1,1),(-1,0,3)}
+
+B = T^-1 A T
+1 2 -1 | 2 -1 3
+0 1 0  | 0  1 2
+-11 3  | -1 0 1 
+T        A
+
+1 0 -1 | 2 -3 -1
+0 1  0 | 0  1  2
+0 0  2 | 0  -4 -2
+
+1 0 0 |
+
+T | [A]_x
+E | T^-1[A]_x
+
+So A and B are similar operators if B is T^-1 A T for some square matrix T.
+[__A__]_x' = T^-1 [A]_xT
+
+And so the class of all squar matirxes N are partitioned into classes of similar matrises
+
+# Eigen values and eigen vectors of a linear operator.
+
+Let V be a finit dimensional vector space over a field F and let A: V \to V. lambda in F
+than lambda is an eigen value of A and x an eigen vector of a belonging to the eigenvalue lambda
+If we have 
+Let V_{\lambda} = {x \in V : A(x) = \lambdax} it is easy to see that this is  subspace of V.
+Subset closed under vector addition and scalar mulitplication.
+
+## Computing eigenvaues and eigen vectors.
+V_{lambda} is the same as the kernal of A - \lambda E)
+
+let A be the matrix of the linear operator in the basis s
+then F is an eigenbalue of A \in ker (A - \lambda E) \neq 0
+\iff (A-\lambdaE)x = 0 has a nontrivial solution
+If and only if A-\lambdaE| = 0
+This is a polinomial
+|A-\leambda E is called the charisteristic polinomial of A are Thus the eigenvalue. 
+
+### How to comput eigenvectors
+
+If V = F and A is the matrix of A in the standard basis.
+V_lambda is the solution space of the homogenious system of linear equations A_lambdaE x = 0
+
+### Swapping basis **Probabliy in exam**
+
+The charicterists polinomial doesn't change with the basis.
+
+**Proof** _Probably in exam_
+
+A = [A]_s
+B = [A]_s' 
+B = T^{-1}AT
+|B - \lambda E|
+|T^{-1}AT \lambda E|
+|T^{-1}AT -T{-1}\lamda{E}T|
+|T^{-1}(A -\lambda A \lambda E) T|
+|T|^{-1} = |A -\lambda E|
+
+
+It is easy to see that this is an equivelance relation.
+
+# Eigenvalues
+
+
+$\begin{pmatix} a \\ b \\ \end{pmatrix}

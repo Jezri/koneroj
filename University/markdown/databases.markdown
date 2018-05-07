@@ -217,3 +217,38 @@ sql script file?
 # Relations
 
 * View data logically rather than phyisically
+
+## ERD Diagrams
+
+* Entity concepts
+* 
+
+# Normalisaztion of a Datatbase.
+
+## What is normalization
+
+  Process for evaluating and correcting table structures to minimize data redunancies
+  Work through stages called normal forms.
+
+## Why is it important
+
+## First Second and Third normal form 
+
+* First normalization each attribute should have a unique primary key.
+* Normalizing means adding more tables.
+* Second form no partial dependencies.
+## Third no transitive dependencies
+
+
+* Third is fine for most industry but more normalization can be done for complicated databases.
+* Functional dependency.
+    + An atribute b is functionally detrermined by function A.
+    + B is functionally depenedent on a
+* Partial
+  + (A, B) -> (C,D)
+  + B -> C
+  + Partial dependency. 
+
+## Boyce Codd normal form and forth normal form.
+
+

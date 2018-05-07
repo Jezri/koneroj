@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.10)  12 APR 2018 10:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2018.3.10)  6 APR 2018 08:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Macro.tex
-(./Macro.tex
+**MVC.tex
+(./MVC.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -777,8 +777,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip47
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 33.
- (./Macro.aux)
-\openout1 = `Macro.aux'.
+ (./MVC.aux)
+\openout1 = `MVC.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
 LaTeX Font Info:    ... okay on input line 57.
@@ -837,39 +837,39 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 57.
 LaTeX Info: Redefining \pageref on input line 57.
 LaTeX Info: Redefining \nameref on input line 57.
- (./Macro.out)
-(./Macro.out)
+ (./MVC.out)
+(./MVC.out)
 \@outlinefile=\write3
-\openout3 = `Macro.out'.
+\openout3 = `MVC.out'.
 
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 66.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 65.
  (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 66.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 65.
 
 (/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 66.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 65.
 
 
 (/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 66.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 65.
 
 
 (/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 66.
+(Font)              <10> on input line 65.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 66.
+(Font)              <7> on input line 65.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 66.
-LaTeX Font Info:    Try loading font information for U+msa on input line 66.
+(Font)              <5> on input line 65.
+LaTeX Font Info:    Try loading font information for U+msa on input line 65.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -877,7 +877,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 66.
+LaTeX Font Info:    Try loading font information for U+msb on input line 65.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -885,136 +885,270 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/share/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Underfull \hbox (badness 10000) in paragraph at lines 91--97
-[]\T1/lmr/m/n/10 (+20) The To-tal
- []
 
+! Package amsmath Error: \vec allowed only in math mode.
 
-Underfull \hbox (badness 1033) in paragraph at lines 91--97
-\T1/lmr/m/n/10 (+20) ob-tained by sell-ing goods and ser-vices (no
- []
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 103.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 103.
-
-Underfull \vbox (badness 5681) has occurred while \output is active []
-
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 113.
-
-
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 * \textbf{g} \$ \vec{F \times G}
+                                      = ()\nabla \times \vec{F}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69 * \textbf{g} \$ \vec{F \times G} = ()\nabla
+                                                 \times \vec{F}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.71 
+     
+? 
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 75.
 (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \vbox (badness 4060) has occurred while \output is active []
 
- [1
+! LaTeX Error: \mathbb allowed only in math mode.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Underfull \hbox (badness 6758) in paragraph at lines 366--368
-[]\T1/lmr/m/n/10 (+20) Alternitive leak-ages vs in-jec-tions in the
- []
-
-[3]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5]
-Underfull \hbox (badness 7907) in paragraph at lines 689--689
-[][]\T1/lmr/bx/n/14.4 Monetary plol-icy ef-fec-tiv-ness
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.701   i = \frac{d_0 -M}{d1}
-                             +\frac{d_1}{d_2}Y
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.92   Let \$f:\mathbb
+                      {R}\^{}n \to \mathbb{R}
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.701   i = \frac{d_0 -M}{d1}
-                             +\frac{d_1}{d_2}Y
+l.92   Let \$f:\mathbb{R}\^{}n \to
+                                   \mathbb{R}
 ? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.701   i = \frac{d_0 -M}{d1}
-                             +\frac{d_1}{d_2}Y
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93 \item
+          
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94   T
+        han
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94   T
+        han
+? 
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.95   \(
+         \frac{\partial ^2f}{\partial k_x \partial x_j} \overbrace{mostly}{=...
+
 ? 
 ! Extra }, or forgotten $.
-\frac  #1#2->{\begingroup #1\endgroup \@@over #2}
-                                                 
-l.701   i = \frac{d_0 -M}{d1}
-                             +\frac{d_1}{d_2}Y
+l.115 \(S \{}
+              \vec{x} \in \mathbb{R}^n : f(x) = c \}\) this can give curves or
+? 
+
+! Package amsmath Error: \vec allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.120   \$\vec{x}
+                  \in S is a regular point if \(\grad{F} (\vec{x}) \neq )\)
 ? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.702 
-      
+l.120   \$\vec{x} \in
+                      S is a regular point if \(\grad{F} (\vec{x}) \neq )\)
 ? 
-! Missing } inserted.
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.120   \$\vec{x} \in S is a regular point if \(
+                                                \grad{F} (\vec{x}) \neq )\)
+? 
+! Undefined control sequence.
+l.120 ...ec{x} \in S is a regular point if \(\grad
+                                                  {F} (\vec{x}) \neq )\)
+? 
+! Undefined control sequence.
+l.122   \$ is a singular point if \$\grad
+                                         {f}(\vec{x})=0; If grad is a tangent
+? 
+
+! Package amsmath Error: \vec allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.122 ...is a singular point if \$\grad{f}(\vec{x}
+                                                  )=0; If grad is a tangent
+? 
+
+! LaTeX Error: \mathbb allowed only in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.125   Let S be a hyper surface in \$\mathbb
+                                             {R}\^{}n. than n is a noraml to s
+? 
+! Undefined control sequence.
+l.139 \(\grad
+             {d}(\vec{x_0}) \cdot \vec{\gamma}'(t_0) = 0\) Every directional
+? 
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+! Missing $ inserted.
 <inserted text> 
-                }
-l.702 
+                $
+l.143 and gamma(t) \in
+                       S forall t in R we have f(gamma t = c), so that (f
+? 
+! Undefined control sequence.
+l.144 ...w = f'(gamma t) gamma'(t) = 0 \Rughtarrow
+                                                   =
+? 
+! Undefined control sequence.
+l.145 \grad
+            f (gamma t) \cdot gamma't =0
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.146 
       
 ? 
-[6]
-Underfull \hbox (badness 1675) in paragraph at lines 844--844
-\T1/lmr/bx/n/14.4 done so far dy-namic ana-ly-isi
+
+Underfull \hbox (badness 1515) in paragraph at lines 142--146
+[]\T1/lmr/m/n/10 (+20) Proof $\OMS/lmsy/m/n/10 8\OML/lmm/m/it/10 ^^MR \OMS/lmsy
+/m/n/10 ! \OML/lmm/m/it/10 R[]\OMS/lmsy/m/n/10 j\OML/lmm/m/it/10 gammat[] \OT1/
+lmr/m/n/10 (+20) = \OML/lmm/m/it/10 x[]forsomet[] \OMS/lmsy/m/n/10 2 \OML/lmm/m
+/it/10 R$ \T1/lmr/m/n/10 (+20) and gamma(t) $\OMS/lmsy/m/n/10 2
  []
 
-[7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 968.
- [8
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 968.
- (./Macro.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 968.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 968.
+Overfull \hbox (28.41855pt too wide) in paragraph at lines 142--146
+\OML/lmm/m/it/10 SforalltinRwehavef\OT1/lmr/m/n/10 (-20) (\OML/lmm/m/it/10 gamm
+at \OT1/lmr/m/n/10 (-20) = \OML/lmm/m/it/10 c\OT1/lmr/m/n/10 (-20) )\OML/lmm/m/
+it/10 ; sothat\OT1/lmr/m/n/10 (-20) (\OML/lmm/m/it/10 f\OT1/lmr/m/n/10 (-20) (\
+OML/lmm/m/it/10 ^^Mt\OT1/lmr/m/n/10 (-20) )` = 0) \OMS/lmsy/m/n/10 )\OT1/lmr/m/
+n/10 (-20) = \OML/lmm/m/it/10 f[]\OT1/lmr/m/n/10 (-20) (\OML/lmm/m/it/10 gammat
+\OT1/lmr/m/n/10 (-20) )\OML/lmm/m/it/10 gamma[]\OT1/lmr/m/n/10 (-20) (\OML/lmm/
+m/it/10 t\OT1/lmr/m/n/10 (-20) ) =
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.147 in paticular at t0: \gamma
+                                (t\_0) = x\_a and
+? 
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.148 \(
+        (\grad{f}(gamma(t0)) = \grad{f_0}, \grad{f}(x_0) \cdot \gamma(t_0) =...
+
+? 
+! Undefined control sequence.
+l.148 \((\grad
+              {f}(gamma(t0)) = \grad{f_0}, \grad{f}(x_0) \cdot \gamma(t_0) =...
+
+? 
+! Undefined control sequence.
+l.148 \((\grad{f}(gamma(t0)) = \grad
+                                    {f_0}, \grad{f}(x_0) \cdot \gamma(t_0) =...
+
+? 
+! Undefined control sequence.
+l.148 \((\grad{f}(gamma(t0)) = \grad{f_0}, \grad
+                                                {f}(x_0) \cdot \gamma(t_0) =...
+
+? 
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 159.
+[2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
+ (./MVC.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 159.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 159.
 
 
-Package rerunfilecheck Warning: File `Macro.out' has changed.
+Package rerunfilecheck Warning: File `MVC.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: Checksums for `Macro.out':
-(rerunfilecheck)             Before: A54C1C041DA8716FB27BDB069869689E;5844
-(rerunfilecheck)             After:  A9820D2358E587A4A721837F99493713;9728.
+Package rerunfilecheck Info: Checksums for `MVC.out':
+(rerunfilecheck)             Before: B64656AA5EDA7ECB26F0EC178E2D9E89;846
+(rerunfilecheck)             After:  496A21C050AB31AFCEED2EBC40977DAD;935.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 968.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 159.
  ) 
 Here is how much of TeX's memory you used:
- 11203 strings out of 492982
- 161810 string characters out of 6138579
- 258203 words of memory out of 5000000
- 14443 multiletter control sequences out of 15000+600000
- 58807 words of font info for 98 fonts, out of 8000000 for 9000
+ 10928 strings out of 492982
+ 157006 string characters out of 6138579
+ 251647 words of memory out of 5000000
+ 14346 multiletter control sequences out of 15000+600000
+ 41821 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,8n,38p,1210b,428s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fo
-nts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mat
-hsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-d
-ist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf-dist/fonts/type1/public/lm/
-lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/
-texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/
-public/lm/lmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></us
-r/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts
-/type1/public/lm/lmr5.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr6.pfb
-></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/f
-onts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy
-10.pfb>
-Output written on Macro.pdf (8 pages, 235818 bytes).
+ 32i,9n,38p,437b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dis
+t/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm
+-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/tex
+mf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm
+/lm-ec.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/
+texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/
+public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></
+usr/share/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf-dist/fon
+ts/type1/public/lm/lmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10
+.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf-di
+st/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/
+lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/share/t
+exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on MVC.pdf (2 pages, 150361 bytes).
 PDF statistics:
- 316 PDF objects out of 1000 (max. 8388607)
- 292 compressed objects within 3 object streams
- 113 named destinations out of 1000 (max. 500000)
- 10457 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 106 PDF objects out of 1000 (max. 8388607)
+ 89 compressed objects within 1 object stream
+ 15 named destinations out of 1000 (max. 500000)
+ 6185 words of extra memory for PDF output out of 10000 (max. 10000000)
 

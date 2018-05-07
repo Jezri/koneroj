@@ -185,3 +185,80 @@ $\left| -1/ n+1 | = 1/n+1 < \epsilon $
 * Since k_epsilon belongs to r kepsilon' by achemedian principle 1/k(a) + 1 < \epsilon.
 * For any m > k(a) \to n+1 > k(a) +1
 * 1/keplsion + 1 < \epsilon>
+
+# Chapter 2 sequences and convergence
+
+A sequence of reals takes in the naturals and outputs the reals.
+
+Formal definition of a limt
+A sequence an converges to a number l if forall episolon there exists delta such that for any natural n if we take a greater term than the nth one the differ the difference betwween the term and the limit is less than delta.
+
+## Lemma is  
+
+Trichotomy M_L >-
+L-M > 0
+
+|M_L| = M_L
+or
+|L_M| = L_M >0
+b
+bouces zero < m_L > is is less then the middpoint of the two
+
+## lemma 2.1
+
+When a sequence converges to something the limit is unique
+Theorem 2.2
+If the sequence (a_n) converges, than its limit is unique.
+But we want to proove that if the limit exists it is unique
+
+Suppose that limit of an when n is huge is L and that it is M
+
+Since the limit as n aproches inigity wher epsilon is greater than zero. Since the lilmit of an when n aproches inifinity = L there exist kesilon depemding on l and another one for 
+Mn since the limit of the same sequence is n when n aproches inifinty then the difference is less than epsilon over 22
+
+Than |L_M| = |L-an +an__M|--|Alessthn |L -a| + |a _m| < epsoln over 2 + epsion/2 = epsiolon
+M
+
+So the absolute value of L_M is less than epsilon.
+
+        Properties
+
+
+## Theoerem 1.3
+
+For this section things are equel if the limit of thier difference limit is zero
+
+Assume the limit of two sequences exist and are unique
+A limit of a constant sequnce is constant
+the limit of two sequnce is the sum of the limits
+* lim_{n\to \inty} c
+* b suppose the limit of an = n when a aproches infintiy and bn s limit is L
+* So show that |(a+b) -(L_M)| < epsilon>
+* Let k me the max of kl and km
+* Than forall n > k
+* | an -L _ (b_n)-M| dist as asso
+* triangle inequilty and than add
+* Move to number c
+* lim can = c lim an
+Let epsilon > 0 , |ca_n -CL | < esilon>
+
+since the lim  an = L
+there exists a k in n such that |an-L| < \frac{\epsilon}{1+ c} 
+if n >= k
+Thn |ca_n -CL| = c(an -L)|
+|c||a_n-L| 
+
+an -L < |c|\epsilon /1+|c| < 1\time epsilon = epsilon>>
+
+So this can be 
+If n > k 
+lim c an = cl =c lim a_n
+
+* e M \neq 0
+* lim_[n \to 0] \frac{a_n}{b_n}=\frac{\lim{a_n}{\limb_n}
+* proove fro 1/bn}
+* Than an?bn = an(1/bn)
+
+Proof let us consider the case an = 1 than we proove that the limit of 1/bn = 1/
+|1/b -1/MM| = |M_b/bmM|
+
