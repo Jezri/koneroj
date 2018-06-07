@@ -1,0 +1,135 @@
+\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provides euro and other symbols
+\else % if luatex or xelatex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\usepackage{hyperref}
+\hypersetup{
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+
+\date{}
+
+\begin{document}
+
+\hypertarget{prerequisits}{%
+\section{Prerequisits}\label{prerequisits}}
+
+\hypertarget{common-integrates}{%
+\subsection{Common integrates}\label{common-integrates}}
+
+\[\frac{d}{dx}\tan(x) = \sec^2 x\]
+
+\[\int u f'(x^2)=\frac{f(x^2)}{2}\]
+
+\[\int x\sqrt{x^2 + 1}=\frac{1}{3}(t^2+1)^{\frac{3}{2}}\]
+
+\textbf{Integration of \(sec^3{\theta}\)} use inegration by part
+\[u=\sec \quad v'=sec^2 \quad u' = \sec\tan \quad v = tan\]
+
+\[\int{sec^3}=\sec \tan - \int{\sec \tan^2} = \sec\tan - \int \sec^3 -\sec^2\]
+solveing for \(\int \sec^3\)
+
+\[2\int sec^3= \sec \tan + \tan\]
+
+\textbf{Integration of \(\sqrt{ax^2 + b}\)}
+\[=\int \sqrt{b}\sqrt{\sqrt{ \left( \frac{a}{b}x \right)^2+1}}\]
+\[\frac{a}{b}x=\tan{\theta} \quad  dx = \sqrt{\frac{b}{a}} \sec^2{\theta}\]
+
+\[=\frac{b}{\sqrt{a}} \int \sec^3{x} = \frac{b}{2 \sqrt{a}}\left( sec tan + sec\right)\]
+
+\hypertarget{intergration-by-part}{%
+\subsection{Intergration by part}\label{intergration-by-part}}
+
+\[\int uv' = uv- \int v'u\]
+
+\hypertarget{integrate-of-sqrtax2-b}{%
+\subsection{\texorpdfstring{Integrate of
+\(\sqrt{ax^2 + b}\)}{Integrate of \textbackslash{}sqrt\{ax\^{}2 + b\}}}\label{integrate-of-sqrtax2-b}}
+
+\hypertarget{scalar-path-integrals}{%
+\section{Scalar path integrals}\label{scalar-path-integrals}}
+
+Definition:
+\[\int_{\Gamma} f ds = \int f(\gamma(t) || \gamma '(t) || dt\]
+
+where \(\Gamma\) is a curve parameterized by \(\gamma(t)\) where t is on
+the interval {[}a,b{]} and f is a real valued function defined on
+\(\Gammma\).
+
+\textbf{The scalar path integral does not depend on the orientation of
+the paramiterization}
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\hypertarget{greens-theorem}{%
+\section{Greens Theorem}\label{greens-theorem}}
+
+\[\int\int_D \left(\frac{\partial{Q}}{\partial{x}} + \frac{\partial{P}}{\partial{y}}\right) = \int_{\partial{D}} P dx + Q dy\]
+
+Proof
+
+\hypertarget{lemma-1}{%
+\subsection{Lemma 1}\label{lemma-1}}
+
+For the function is bounded at the top a\_nd bottom
+
+\[\int_\partial{D} \begin{pmatrix} f \\ 0 \end{pmatrix} \cdot dr =- \int \int_D \frac{\partial{f}}{\partial{y}}dydx\]
+Starting with the right hand side. *
+\(\int_a^b \int_{y=\alpha{x}}^{y=\beta{x}} -\frac{\partial{M}}\partial{y}dydx\)
+* \(=\int_a^b M(x,\alpha(x)) - M(x,\beta(x))dx\) *
+\(=\int_a^b M(t, \alpha(t)) - \int_a ^b M(t,(b\beta(t)))dt\)
+
+which is the integral around the perimiter
+
+This is by definition \#\# Lemma 2
+
+For function bounded on both sides
+
+\[\int_\partial{D} \begin{pmatrix} 0 \\ f \end{pmatrix} \cdot dr = \int \int_D \frac{\partial{f}}{\partial{x}}dxdy\]
+
+\end{document}

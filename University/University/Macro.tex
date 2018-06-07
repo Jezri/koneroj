@@ -1,0 +1,296 @@
+\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[,twocolumn]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provides euro and other symbols
+\else % if luatex or xelatex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\usepackage{hyperref}
+\hypersetup{
+            pdftitle={Macro for exams},
+            pdfauthor={Jezri Krinsky},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+
+\title{Macro for exams}
+\author{Jezri Krinsky}
+\date{}
+
+\begin{document}
+\maketitle
+
+Scope.
+
+\hypertarget{questions}{%
+\section{Questions}\label{questions}}
+
+question 6 in the exam
+
+\hypertarget{general-equations}{%
+\section{General equations}\label{general-equations}}
+
+\hypertarget{short-run}{%
+\section{Short run}\label{short-run}}
+
+\hypertarget{money-supply-formula}{%
+\subsection{Money supply formula}\label{money-supply-formula}}
+
+Demand = Demand for currency + Demand for reseves
+
+\begin{itemize}
+\tightlist
+\item
+  = cMd + \(\theta\)Demand for cheque deposits
+\item
+  = cMd + \(\theta\) (1-c)md
+\item
+  = \((c+\theta(1-c))Md\)
+\end{itemize}
+
+\textbf{\(Md = YL(i)\)}
+
+\hypertarget{aggregate-demand-function.}{%
+\subsection{Aggregate demand
+function.}\label{aggregate-demand-function.}}
+
+\(( a_1 + \frac{md_r}{md_y}) r = a_0 + md_0\)
+
+\hypertarget{goods-market-equilibrium}{%
+\subsubsection{Goods market
+equilibrium}\label{goods-market-equilibrium}}
+
+\(Y = \alpha_0 - a_1 r\) where
+\(\alpha_0 = \frac{c_0 - c_1t_0 + i_0 +G + X-M}{1-c_1(1-t_1 )-i_y}\) and
+\(a_1 = \frac{i_r}{1-c_1(1-t_1)-i_y}\)
+
+\begin{itemize}
+\tightlist
+\item
+  \(Y = c_0 + c_1(Y - t_0 -t_1Y) +i_0 - i_r r + i_yY + G +(X-M)\)
+\end{itemize}
+
+\hypertarget{finiancial-market-equilibrium.}{%
+\subsubsection{Finiancial market
+equilibrium.}\label{finiancial-market-equilibrium.}}
+
+\(Y = \beta_1 r - \beta_0\) * \(Y = \frac{md_r r - md_0 + M_s}{md _y}\)
+* \(M_s = md_0 + md_yY -md_rR\)
+
+\hypertarget{aggregate-supply-function.}{%
+\subsection{Aggregate supply
+function.}\label{aggregate-supply-function.}}
+
+\hypertarget{general-formula}{%
+\subsubsection{General Formula}\label{general-formula}}
+
+\begin{itemize}
+\tightlist
+\item
+  \(P_e F(u,z) = P \frac{1}{1+m}\)
+\item
+  \(P = P_e(1+m)F(u,z)\) \textbf{Solving the production function for Y,
+  nd then solving for p}
+\end{itemize}
+
+\hypertarget{wage-setting}{%
+\subsubsection{Wage setting}\label{wage-setting}}
+
+\begin{itemize}
+\tightlist
+\item
+  \(W = P_e F(u,z)\)
+\end{itemize}
+
+\hypertarget{price-setting}{%
+\subsubsection{Price setting}\label{price-setting}}
+
+\begin{itemize}
+\tightlist
+\item
+  \(\frac{W}{P} =\frac{1}{1+m}\)
+\end{itemize}
+
+\hypertarget{medium-run}{%
+\section{Medium Run}\label{medium-run}}
+
+Start by linking the two markets
+
+\begin{itemize}
+\tightlist
+\item
+  \(P = P_e(1+m) F(1-\frac{Y}{L}z)\)
+\end{itemize}
+
+\hypertarget{medium-islm-or-aggregate-deamnd-with-no-expected-inflation}{%
+\subsection{Medium ISLM or aggregate deamnd with no expected
+inflation}\label{medium-islm-or-aggregate-deamnd-with-no-expected-inflation}}
+
+Even in the short run price rise can be considered as moving the lm
+curve inwards in the ad as model.
+
+\hypertarget{a-chnge-in-monetary-stokes.}{%
+\subsubsection{A chnge in monetary
+stokes.}\label{a-chnge-in-monetary-stokes.}}
+
+Eventual price change so thier is no change in real money suply. this
+means intrest returns to its prechange level
+
+Replace money supply with money supply over price levels. As over the
+long run prices rise reducing Money supply which increases intrest rates
+at any given level of employment moving the LM curve to the left.
+
+\hypertarget{section}{%
+\subsection{}\label{section}}
+
+Prices = expected Prices \#\# Changes in price of other inputs(natural
+reasoureses)
+
+Change the value m and assume no change in the aggregrate demand
+
+\hypertarget{phlips-curve-and-medium-run-with-expected-inflation}{%
+\section{Phlips curve and medium run with expected
+inflation}\label{phlips-curve-and-medium-run-with-expected-inflation}}
+
+Start with the aggregate supply relation
+
+\[P_e F(u,z) = P \frac{1}{1+m}\]
+
+Than use a linear function for \(F\)
+
+\[F = 1-\alpha u + z\]
+
+This solves to give
+
+\[\pi = \pi_e + m + z -\alpha u\]
+
+\hypertarget{original-philips-curve}{%
+\subsubsection{Original philips curve}\label{original-philips-curve}}
+
+Assume pi\_e is always zero as inflation was not 2
+
+\hypertarget{augmented-philips-curve}{%
+\subsubsection{Augmented Philips curve}\label{augmented-philips-curve}}
+
+Replace \(\pi_e\) with \(\pi_t-1 \theta\)
+
+If we replace \(\theta\) with one we get
+
+\[\Delta pi = m + z -\alpha u\]
+
+\hypertarget{natural-rate-of-unemployment}{%
+\paragraph{Natural rate of
+unemployment}\label{natural-rate-of-unemployment}}
+
+Gives a constant inflation rate and assume \(\theta = 1\)
+\(U_n = \frac{m+z}{\alpha}\)
+
+Plugining this back into the equation we get
+
+\(\Delta \pi = -\alpha (u_t - u_n)\)
+
+\hypertarget{nutrality-of-money}{%
+\paragraph{Nutrality of money}\label{nutrality-of-money}}
+
+A natural rate of unemployment implies a natural rate of output
+irrespective of money supply.
+
+\hypertarget{wage-indexation}{%
+\paragraph{Wage indexation}\label{wage-indexation}}
+
+Some wages are indexed directly on current inflation.
+
+\(\pi_t = \lambda pi_t + (\lambda-1) pi_t-1 + m + z - \alpha u\)
+
+This gives
+
+\(\delta \pi = -\frac{1}{1-\lambda}{u_t - u_n}\)
+
+when wage indexation is common small changes in employment yeiled large
+changes in inflation
+
+\hypertarget{okun-law}{%
+\subsubsection{Okun law}\label{okun-law}}
+
+\(\Delta u = -\alpha(g - \beta)\) where g is growth rate. becouse output
+and employment are not infact one to one becouse of labour hording.
+
+The natural rate of growth is one with no change in unemployment.
+
+\hypertarget{aggregate-demand-relation}{%
+\subsection{Aggregate demand relation}\label{aggregate-demand-relation}}
+
+Take the function \(Y = Y(\frac{M}{P},G,T)\)
+
+and replace it with
+
+\(Y = \gamma \frac{M}{P}\)
+
+Solving this gives that the real output growth rate is the nominal
+output growth rate - the inflation rate
+
+\hypertarget{lucas-crituque}{%
+\subsection{Lucas crituque}\label{lucas-crituque}}
+
+If \(\pi_e\) is based on credible policy declaration to a larger extent
+rather than only on previous inflation the cost of disinflation is
+reduced.
+
+\textbf{Point year of execss inflation} the difference between the
+actual and the naturl unemployment rate of 1 percent for one year
+
+\hypertarget{summary}{%
+\section{Summary}\label{summary}}
+
+\begin{itemize}
+\tightlist
+\item
+  \(ut - u_{t-1} = -a(g_{yt}-g_{yn})\) \textbf{Okuns law}
+\item
+  \(\pi_t - \pi_{t-1} = -{u_t-un}\) \textbf{Philips curve}
+\item
+  \(g_{yt} = g_{mt} -\pi_t\) \textbf{Aggregate demand}
+\end{itemize}
+
+\end{document}
